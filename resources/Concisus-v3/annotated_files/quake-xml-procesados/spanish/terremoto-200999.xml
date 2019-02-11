@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-200999.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>20 septiembre 1999&#xd;<Node id="19"/>
+<Node id="20"/>Taiwán<Node id="26"/>, Terremoto con epicentro en <Node id="55"/>Puli<Node id="59"/>, centro de la isla: <Node id="80"/>2.412<Node id="85"/> muertos y unos <Node id="101"/>9.000<Node id="106"/> lesionados, en el peor movimiento telúrico de la historia del país, que tuvo una intensidad de magnitud <Node id="211"/>7,6 <Node id="215"/>Richter.<Node id="223"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="96" Type="Mention" StartNode="0" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="97" Type="Mention" StartNode="20" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="98" Type="Mention" StartNode="55" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Epicentre</Value>
+</Feature>
+</Annotation>
+<Annotation Id="99" Type="Mention" StartNode="80" EndNode="85">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="100" Type="Mention" StartNode="101" EndNode="106">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="101" Type="Mention" StartNode="211" EndNode="215">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="0" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">20/09/1999</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Country" StartNode="20" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Epicentre" StartNode="55" EndNode="59">
+</Annotation>
+<Annotation Id="4" Type="Fatalities" StartNode="80" EndNode="85">
+</Annotation>
+<Annotation Id="5" Type="Injured" StartNode="101" EndNode="106">
+</Annotation>
+<Annotation Id="6" Type="Magnitude" StartNode="211" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

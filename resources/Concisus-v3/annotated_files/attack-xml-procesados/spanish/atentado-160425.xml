@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-160425.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Bulgaria<Node id="8"/>: masacre en la catedral de Sofía&#xd;
+El <Node id="46"/>16 de abril de 1925<Node id="65"/>, jueves santo, es detonada una <Node id="97"/>bomba<Node id="102"/> oculta en la nave principal de <Node id="134"/>la catedral<Node id="145"/> durante un oficio funebre de cuerpo presente en honor del General Konstantin Georgiev, al cual asisten altas autoridades del gobierno bulgaro, personalidades politicas y eclesiasticas y una multitud de fieles. La explosion causa <Node id="375"/>150<Node id="378"/> muertos y mas de <Node id="396"/>500<Node id="399"/> heridos muchos de ellas victimas ademas del derrumbe parcial de la cupula de la catedral.   <Node id="492"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="186" Type="Mention" StartNode="46" EndNode="65">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="Mention" StartNode="97" EndNode="102">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="188" Type="Mention" StartNode="375" EndNode="378">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="189" Type="Mention" StartNode="396" EndNode="399">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="190" Type="Mention" StartNode="0" EndNode="8">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="Mention" StartNode="134" EndNode="145">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="492">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="46" EndNode="65">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">16/04/25</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TypeOfAttack" StartNode="97" EndNode="102">
+</Annotation>
+<Annotation Id="4" Type="Fatalities" StartNode="375" EndNode="378">
+</Annotation>
+<Annotation Id="5" Type="Injured" StartNode="396" EndNode="399">
+</Annotation>
+<Annotation Id="6" Type="Place" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="7" Type="NameOfVictim" StartNode="134" EndNode="145">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

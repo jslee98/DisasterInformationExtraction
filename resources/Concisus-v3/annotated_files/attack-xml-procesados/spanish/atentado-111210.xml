@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-111210.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los atentados de Estocolmo de 2010 ocurrieron el <Node id="49"/>11 de diciembre de 2010<Node id="72"/>, cuando <Node id="81"/>dos bombas explosionaron<Node id="105"/> en el centro de <Node id="122"/>Estocolmo<Node id="131"/>, Suecia, matando al <Node id="152"/>atacante<Node id="160"/> e hiriendo a otras <Node id="180"/>dos<Node id="183"/> personas.El ministro sueco de Asuntos Exteriores, Carl Bildt, y el Servicio de Seguridad Sueco (SÄPO) describieron los ataques como actos de terrorismo.Se cree que las explosiones fueron obra de un ciudadano sueco de origen iraquí, cuyo nombre fue divulgado como <Node id="447"/>Taimour Aulwahab al-Abdaly<Node id="473"/>. La Norsk Rikskringkasting describió el suceso como el primer ataque suicida del terrorismo islámico en los países nórdicos.<Node id="598"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="212" Type="Mention" StartNode="49" EndNode="72">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="213" Type="Mention" StartNode="81" EndNode="105">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="214" Type="Mention" StartNode="122" EndNode="131">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="215" Type="Mention" StartNode="180" EndNode="183">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="216" Type="Mention" StartNode="152" EndNode="160">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="217" Type="Mention" StartNode="447" EndNode="473">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="598">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="49" EndNode="72">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">11/12/10</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TypeOfAttack" StartNode="81" EndNode="105">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Place" StartNode="122" EndNode="131">
+</Annotation>
+<Annotation Id="5" Type="Injured" StartNode="180" EndNode="183">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="152" EndNode="160">
+</Annotation>
+<Annotation Id="7" Type="Perpetrator" StartNode="447" EndNode="473">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

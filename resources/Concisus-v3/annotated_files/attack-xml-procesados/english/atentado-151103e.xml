@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-151103e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2003&#xd;<Node id="5"/>
+Turkey: <Node id="14"/>Four suicide truck bombers<Node id="40"/> detonate at two <Node id="57"/>synagogues<Node id="67"/>, the <Node id="73"/>British Consulate<Node id="90"/>, and the <Node id="100"/>HSBC Bank<Node id="109"/> in <Node id="113"/>Istanbul<Node id="121"/>, killing <Node id="131"/>57<Node id="133"/> and wounding <Node id="147"/>700<Node id="150"/> in the 2003 Istanbul Bombings.<Node id="181"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="80" Type="Mention" StartNode="73" EndNode="90">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="81" Type="Mention" StartNode="100" EndNode="109">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="82" Type="Mention" StartNode="113" EndNode="121">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="83" Type="Mention" StartNode="131" EndNode="133">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="84" Type="Mention" StartNode="147" EndNode="150">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="77" Type="Mention" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="78" Type="Mention" StartNode="14" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="79" Type="Mention" StartNode="57" EndNode="67">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="181">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2003</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="TypeOfAttack" StartNode="14" EndNode="40">
+</Annotation>
+<Annotation Id="5" Type="NameOfVictim" StartNode="57" EndNode="67">
+</Annotation>
+<Annotation Id="6" Type="NameOfVictim" StartNode="73" EndNode="90">
+</Annotation>
+<Annotation Id="7" Type="NameOfVictim" StartNode="100" EndNode="109">
+</Annotation>
+<Annotation Id="8" Type="Place" StartNode="113" EndNode="121">
+</Annotation>
+<Annotation Id="9" Type="Fatalities" StartNode="131" EndNode="133">
+</Annotation>
+<Annotation Id="10" Type="Injured" StartNode="147" EndNode="150">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

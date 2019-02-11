@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-210895.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>21 de agosto de 1995<Node id="23"/> un atacante suicida detona una <Node id="55"/>bomba<Node id="60"/> dentro de un <Node id="74"/>autobus<Node id="81"/> en <Node id="85"/>Jerusalem<Node id="94"/> provocando la muerte de <Node id="119"/>6<Node id="120"/> personas y heridas a cerca de un <Node id="154"/>centenar<Node id="162"/>. El ataque es reivindicado por la organización extremista palestina <Node id="231"/>Hamas<Node id="236"/>. <Node id="238"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="96" Type="Mention" StartNode="3" EndNode="23">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="97" Type="Mention" StartNode="55" EndNode="60">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="98" Type="Mention" StartNode="74" EndNode="81">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="99" Type="Mention" StartNode="85" EndNode="94">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="100" Type="Mention" StartNode="119" EndNode="120">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="101" Type="Mention" StartNode="154" EndNode="162">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="102" Type="Mention" StartNode="231" EndNode="236">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="238">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="3" EndNode="23">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">21/08/95</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="TypeOfAttack" StartNode="55" EndNode="60">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="NameOfVictim" StartNode="74" EndNode="81">
+</Annotation>
+<Annotation Id="4" Type="Place" StartNode="85" EndNode="94">
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="119" EndNode="120">
+</Annotation>
+<Annotation Id="6" Type="Injured" StartNode="154" EndNode="162">
+</Annotation>
+<Annotation Id="7" Type="Perpetrator" StartNode="231" EndNode="236">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

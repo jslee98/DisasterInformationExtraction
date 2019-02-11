@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-280364.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>28 de marzo de 1964<Node id="19"/>, <Node id="21"/>03:36<Node id="26"/>, <Node id="28"/>9,2<Node id="31"/> , <Node id="34"/>Estados Unidos<Node id="48"/>, <Node id="50"/>Anchorage<Node id="59"/>, <Node id="61"/>Alaska<Node id="67"/>. 61°N 148°O /61, -148; 128; Produjo un levantamiento del suelo de hasta 11,5 m en 520.000 kilómetros cuadrados en el continente, siendo aun mayor en las <Node id="221"/>islas Aleutianas<Node id="237"/>, alcanzando los 15 m en la <Node id="265"/>isla Montague<Node id="278"/>.<Node id="279"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="133" Type="Mention" StartNode="0" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="Mention" StartNode="21" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="Mention" StartNode="28" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="Mention" StartNode="34" EndNode="48">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="137" Type="Mention" StartNode="50" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="138" Type="Mention" StartNode="61" EndNode="67">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Province</Value>
+</Feature>
+</Annotation>
+<Annotation Id="139" Type="Mention" StartNode="221" EndNode="237">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="140" Type="Mention" StartNode="265" EndNode="278">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="279">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="0" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/03/1964</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="TimeOfEarthquake" StartNode="21" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Magnitude" StartNode="28" EndNode="31">
+</Annotation>
+<Annotation Id="4" Type="Country" StartNode="34" EndNode="48">
+</Annotation>
+<Annotation Id="5" Type="City" StartNode="50" EndNode="59">
+</Annotation>
+<Annotation Id="6" Type="Province" StartNode="61" EndNode="67">
+</Annotation>
+<Annotation Id="7" Type="OtherPlacesAffected" StartNode="221" EndNode="237">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="OtherPlacesAffected" StartNode="265" EndNode="278">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

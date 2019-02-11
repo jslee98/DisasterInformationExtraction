@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-311002e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 2002 Molise earthquake was a magnitude <Node id="43"/>5.9<Node id="46"/> earthquake that hit the <Node id="71"/>Italian<Node id="78"/> regions of <Node id="90"/>Molise<Node id="96"/> and <Node id="101"/>Puglia<Node id="107"/> on<Node id="110"/> October 31, 2002<Node id="127"/> at <Node id="131"/>10:32:58<Node id="139"/> (UTC). The depth of the earthquake was <Node id="179"/>10.0 km<Node id="186"/> (6.2 miles).<Node id="199"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="100" Type="Mention" StartNode="43" EndNode="46">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="101" Type="Mention" StartNode="90" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="102" Type="Mention" StartNode="101" EndNode="107">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="103" Type="Mention" StartNode="110" EndNode="127">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="Mention" StartNode="131" EndNode="139">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="Mention" StartNode="179" EndNode="186">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Depth</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="Mention" StartNode="71" EndNode="78">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="199">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Magnitude" StartNode="43" EndNode="46">
+</Annotation>
+<Annotation Id="2" Type="Region" StartNode="90" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Region" StartNode="101" EndNode="107">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="DateOfEarthquake" StartNode="110" EndNode="127">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">31/10/2002</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="TimeOfEarthquake" StartNode="131" EndNode="139">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Depth" StartNode="179" EndNode="186">
+</Annotation>
+<Annotation Id="9" Type="Country" StartNode="71" EndNode="78">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

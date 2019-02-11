@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-280595.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>28 mayo 1995&#xd;<Node id="13"/>
+Ciudad de <Node id="24"/>Neftegorsk<Node id="34"/>, <Node id="36"/>norte de la isla de Sajalín<Node id="63"/> (extremo oriental de <Node id="85"/>Rusia<Node id="90"/>): <Node id="93"/>1.989<Node id="98"/> fallecidos en un sismo de de magnitud <Node id="137"/>7,5<Node id="140"/> Richter.<Node id="149"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="71" Type="Mention" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="72" Type="Mention" StartNode="24" EndNode="34">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="73" Type="Mention" StartNode="36" EndNode="63">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="74" Type="Mention" StartNode="85" EndNode="90">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="75" Type="Mention" StartNode="93" EndNode="98">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="76" Type="Mention" StartNode="137" EndNode="140">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="149">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/05/95</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="City" StartNode="24" EndNode="34">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Region" StartNode="36" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="Country" StartNode="85" EndNode="90">
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="93" EndNode="98">
+</Annotation>
+<Annotation Id="6" Type="Magnitude" StartNode="137" EndNode="140">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

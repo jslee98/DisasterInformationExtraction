@@ -1,0 +1,8 @@
+32 #numTrainingDocs
+28 #numClasses
+927 #numNullLabelInstances
+9000538 #totalFeatures
+/Users/Jeff/Desktop/Abroad/Intelligent_Web_Applications/AIW_Lab1Files/resources/configs/airplane/english/savedFiles/learnedModels.save #modelFile
+SVMLibSvmJava #learnerName
+null #learnerExecutable
+ -c 0.7 -t 0 -m 100 -tau 0.6   #learnerParams

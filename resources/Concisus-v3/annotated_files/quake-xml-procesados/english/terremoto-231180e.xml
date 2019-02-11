@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-231180e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Eboli<Node id="5"/> 1980 - an earthquake of <Node id="30"/>6.9<Node id="33"/> Richter centered on <Node id="54"/>Eboli<Node id="59"/>, kills <Node id="67"/>2,735<Node id="72"/> and injures more than <Node id="95"/>7,500<Node id="100"/>; more than 1,500 people are reported missing <Node id="146"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="67" Type="Mention" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="68" Type="Mention" StartNode="30" EndNode="33">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="69" Type="Mention" StartNode="67" EndNode="72">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="70" Type="Mention" StartNode="54" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Epicentre</Value>
+</Feature>
+</Annotation>
+<Annotation Id="71" Type="Mention" StartNode="95" EndNode="100">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="146">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="City" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="Magnitude" StartNode="30" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="Fatalities" StartNode="67" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="Epicentre" StartNode="54" EndNode="59">
+</Annotation>
+<Annotation Id="5" Type="Injured" StartNode="95" EndNode="100">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

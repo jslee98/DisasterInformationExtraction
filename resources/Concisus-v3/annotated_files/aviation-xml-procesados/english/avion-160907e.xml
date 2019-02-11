@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-160907e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2007<Node id="4"/>&#xd;
+<Node id="6"/>September 16<Node id="18"/> ? <Node id="21"/>One-Two-GO Airlines<Node id="40"/> <Node id="41"/>Flight 269<Node id="51"/>, a <Node id="55"/>McDonnell Douglas MD-82<Node id="78"/> carrying <Node id="88"/>130<Node id="91"/> people, <Node id="100"/>crashes and bursts into flames<Node id="130"/> after attempting to land in <Node id="159"/>Phuket, Thailand<Node id="175"/> during poor weather conditions killing <Node id="215"/>90<Node id="217"/> people.<Node id="225"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="96" Type="Mention" StartNode="159" EndNode="175">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="97" Type="Mention" StartNode="215" EndNode="217">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="89" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="90" Type="Mention" StartNode="6" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="91" Type="Mention" StartNode="41" EndNode="51">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="92" Type="Mention" StartNode="55" EndNode="78">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAircraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="93" Type="Mention" StartNode="88" EndNode="91">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Passenger</Value>
+</Feature>
+</Annotation>
+<Annotation Id="94" Type="Mention" StartNode="100" EndNode="130">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="95" Type="Mention" StartNode="21" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="3" Type="Airline" StartNode="6" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">16/09/2007</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="FlightNumber" StartNode="41" EndNode="51">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="TypeOfAircraft" StartNode="55" EndNode="78">
+</Annotation>
+<Annotation Id="6" Type="Passenger" StartNode="88" EndNode="91">
+</Annotation>
+<Annotation Id="7" Type="TypeOfAccident" StartNode="100" EndNode="130">
+</Annotation>
+<Annotation Id="8" Type="Airline" StartNode="21" EndNode="40">
+</Annotation>
+<Annotation Id="9" Type="Place" StartNode="159" EndNode="175">
+</Annotation>
+<Annotation Id="10" Type="NumberOfVictims" StartNode="215" EndNode="217">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

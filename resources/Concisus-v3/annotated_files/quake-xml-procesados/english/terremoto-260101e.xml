@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-260101e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>26 enero 2001&#xd;<Node id="14"/>
+SOUTHERN INDIA. At least <Node id="40"/>20,005<Node id="46"/> people killed, <Node id="62"/>166,836<Node id="69"/> injured, approximately 339,000 buildings destroyed and <Node id="125"/>783,000 <Node id="133"/>damaged in the <Node id="148"/>Bhuj-Ahmadabad-Rajkot<Node id="169"/> area and other parts of <Node id="194"/>Gujarat<Node id="201"/>. Many bridges and roads damaged in Gujarat. At least 18 people killed and some injured in southern <Node id="301"/>Pakistan<Node id="309"/>. Felt throughout northern India and much of Pakistan. Also felt in <Node id="377"/>Bangladesh<Node id="387"/> and western <Node id="400"/>Nepal<Node id="405"/>. The earthquake occurred along an approximately east-west trending thrust fault at shallow depth. The stress that caused this earthquake is due to the Indian plate pushing northward into the Eurasian plate.<Node id="612"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="231" Type="Mention" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="232" Type="Mention" StartNode="40" EndNode="46">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="233" Type="Mention" StartNode="62" EndNode="69">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="234" Type="Mention" StartNode="125" EndNode="133">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+<Annotation Id="235" Type="Mention" StartNode="148" EndNode="169">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="236" Type="Mention" StartNode="194" EndNode="201">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="237" Type="Mention" StartNode="301" EndNode="309">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="238" Type="Mention" StartNode="377" EndNode="387">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="239" Type="Mention" StartNode="400" EndNode="405">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="612">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">26/01/2001</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Fatalities" StartNode="40" EndNode="46">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Injured" StartNode="62" EndNode="69">
+</Annotation>
+<Annotation Id="4" Type="Homeless" StartNode="125" EndNode="133">
+</Annotation>
+<Annotation Id="5" Type="Region" StartNode="148" EndNode="169">
+</Annotation>
+<Annotation Id="6" Type="OtherPlacesAffected" StartNode="194" EndNode="201">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="OtherPlacesAffected" StartNode="301" EndNode="309">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="OtherPlacesAffected" StartNode="377" EndNode="387">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="OtherPlacesAffected" StartNode="400" EndNode="405">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">4</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

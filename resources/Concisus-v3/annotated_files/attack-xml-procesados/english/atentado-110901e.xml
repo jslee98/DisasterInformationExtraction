@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-110901e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2001<Node id="4"/>&#xd;
+United States, <Node id="21"/>September 11<Node id="33"/>: Attacks kill <Node id="48"/>2,973<Node id="53"/> in a series of <Node id="69"/>hijacked<Node id="77"/> airliner crashes into two U.S. landmarks: the <Node id="124"/>World Trade Center<Node id="142"/> in <Node id="146"/>New York<Node id="154"/> City, and <Node id="165"/>The Pentagon<Node id="177"/> in <Node id="181"/>Arlington<Node id="190"/> County. A fourth plane, originally intended to hit the United States Capitol Building, crashes in <Node id="289"/>Somerset<Node id="297"/> County, Pennsylvania, after an apparent revolt against the hijackers by the plane's passengers.<Node id="393"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="160" Type="Mention" StartNode="69" EndNode="77">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="161" Type="Mention" StartNode="124" EndNode="142">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="162" Type="Mention" StartNode="146" EndNode="154">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="163" Type="Mention" StartNode="165" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="164" Type="Mention" StartNode="181" EndNode="190">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="165" Type="Mention" StartNode="289" EndNode="297">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="157" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="158" Type="Mention" StartNode="21" EndNode="33">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="159" Type="Mention" StartNode="48" EndNode="53">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="393">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="3" Type="DateOfAttack" StartNode="21" EndNode="33">
+</Annotation>
+<Annotation Id="4" Type="Fatalities" StartNode="48" EndNode="53">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAttack" StartNode="69" EndNode="77">
+</Annotation>
+<Annotation Id="6" Type="NameOfVictim" StartNode="124" EndNode="142">
+</Annotation>
+<Annotation Id="8" Type="Place" StartNode="146" EndNode="154">
+</Annotation>
+<Annotation Id="9" Type="NameOfVictim" StartNode="165" EndNode="177">
+</Annotation>
+<Annotation Id="10" Type="Place" StartNode="181" EndNode="190">
+</Annotation>
+<Annotation Id="11" Type="Place" StartNode="289" EndNode="297">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

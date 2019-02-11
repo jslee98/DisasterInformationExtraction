@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/ferroviarios/tren-290609.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>29 junio 2009<Node id="13"/>.&#xd;
+<Node id="16"/>22 <Node id="19"/>muertos y <Node id="29"/>50<Node id="31"/> heridos a consecuencia de la<Node id="60"/> explosión<Node id="70"/> en los vagones de un<Node id="91"/> tren de mercancías<Node id="110"/> cargado con gas en <Node id="130"/>Viareggio<Node id="139"/>, en la región italiana de Toscana.<Node id="174"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="81" Type="Mention" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="82" Type="Mention" StartNode="16" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="83" Type="Mention" StartNode="29" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+<Annotation Id="84" Type="Mention" StartNode="60" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="85" Type="Mention" StartNode="91" EndNode="110">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="86" Type="Mention" StartNode="130" EndNode="139">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="174">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAccident" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">29/06/2009</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="NumberOfVictims" StartNode="16" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Survivors" StartNode="29" EndNode="31">
+</Annotation>
+<Annotation Id="4" Type="TypeOfAccident" StartNode="60" EndNode="70">
+</Annotation>
+<Annotation Id="7" Type="TypeOfTrain" StartNode="91" EndNode="110">
+</Annotation>
+<Annotation Id="8" Type="Place" StartNode="130" EndNode="139">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

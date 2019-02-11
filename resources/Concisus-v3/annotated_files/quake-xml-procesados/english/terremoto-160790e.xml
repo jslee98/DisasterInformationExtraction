@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-160790e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The <Node id="4"/>Luzon<Node id="9"/> earthquake occurred on Monday,<Node id="40"/> July 16, 1990<Node id="54"/>, at <Node id="59"/>4:26<Node id="63"/> PM local time in the <Node id="85"/>Philippines<Node id="96"/>. The densely populated island of Luzon was struck by an earthquake with a<Node id="170"/> 7.8<Node id="174"/> Ms (surface-wave magnitude). An estimated <Node id="217"/>1,621<Node id="222"/> people were killed in the earthquake, most of the fatalities located in <Node id="295"/>Central Luzon<Node id="308"/> and the <Node id="317"/>Cordillera region<Node id="334"/>.&#xd;
+<Node id="337"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="144" Type="Mention" StartNode="40" EndNode="54">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="145" Type="Mention" StartNode="59" EndNode="63">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="146" Type="Mention" StartNode="85" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="147" Type="Mention" StartNode="170" EndNode="174">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="148" Type="Mention" StartNode="217" EndNode="222">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="149" Type="Mention" StartNode="295" EndNode="308">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="150" Type="Mention" StartNode="317" EndNode="334">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="143" Type="Mention" StartNode="4" EndNode="9">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="337">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="City" StartNode="4" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="DateOfEarthquake" StartNode="40" EndNode="54">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">16/07/1990</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TimeOfEarthquake" StartNode="59" EndNode="63">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Country" StartNode="85" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Magnitude" StartNode="170" EndNode="174">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="217" EndNode="222">
+</Annotation>
+<Annotation Id="7" Type="Region" StartNode="295" EndNode="308">
+</Annotation>
+<Annotation Id="8" Type="OtherPlacesAffected" StartNode="317" EndNode="334">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

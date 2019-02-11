@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-110901.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>ESTADOS UNIDOS (<Node id="16"/>11 de septiembre de 2001<Node id="40"/>)&#xd;
+<Node id="43"/>&#xd;
+<Node id="45"/>Al Qaeda<Node id="53"/> lleva a cabo el mayor ataque de la historia del terrorismo cuando dos aviones secuestrados en vuelo son estrellados contra las <Node id="181"/>Torres Gemelas<Node id="195"/> (Worl Trade Center) de <Node id="219"/>Nueva York<Node id="229"/>, mientras otro <Node id="245"/>avión se estrella <Node id="263"/>contra el <Node id="273"/>Pentágono<Node id="282"/> y otro es abatido en <Node id="304"/>Pensylvania<Node id="315"/>. El saldo de muertos fue de unos <Node id="349"/>3.000<Node id="354"/>. <Node id="356"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="150" Type="Mention" StartNode="16" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="151" Type="Mention" StartNode="45" EndNode="53">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="152" Type="Mention" StartNode="181" EndNode="195">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="153" Type="Mention" StartNode="219" EndNode="229">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="154" Type="Mention" StartNode="245" EndNode="263">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="155" Type="Mention" StartNode="273" EndNode="282">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="156" Type="Mention" StartNode="304" EndNode="315">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="157" Type="Mention" StartNode="349" EndNode="354">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="43">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="45" EndNode="356">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="2" Type="DateOfAttack" StartNode="16" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">11/09/01</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Perpetrator" StartNode="45" EndNode="53">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="NameOfVictim" StartNode="181" EndNode="195">
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="219" EndNode="229">
+</Annotation>
+<Annotation Id="6" Type="TypeOfAttack" StartNode="245" EndNode="263">
+</Annotation>
+<Annotation Id="7" Type="NameOfVictim" StartNode="273" EndNode="282">
+</Annotation>
+<Annotation Id="8" Type="Place" StartNode="304" EndNode="315">
+</Annotation>
+<Annotation Id="9" Type="Fatalities" StartNode="349" EndNode="354">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

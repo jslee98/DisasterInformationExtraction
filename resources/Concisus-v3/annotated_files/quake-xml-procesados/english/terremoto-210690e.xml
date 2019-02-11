@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-210690e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The Manjil-Rudbar Earthquake occurred at <Node id="41"/>00:30:09<Node id="49"/> on <Node id="53"/>June 21, 1990<Node id="66"/> (21:00:09 June 20, 1990 UTC). It caused widespread damage in areas within a one hundred kilometer radius of the epicenter near the city of <Node id="206"/>Rasht<Node id="211"/> and about two hundred kilometers northwest of Tehran. The cities of <Node id="280"/>Rudbar<Node id="286"/>, <Node id="288"/>Manjil<Node id="294"/>, and <Node id="300"/>Lushan<Node id="306"/> and 700 villages were destroyed, and over three hundred villages were affected. There was $200,000,000 not only in damage but in health care in damage in <Node id="461"/>Gilan<Node id="466"/> and <Node id="471"/>Zanjan<Node id="477"/> provinces<Node id="487"/> southwest of the Caspian Sea<Node id="516"/>.<Node id="517"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="213" Type="Mention" StartNode="41" EndNode="49">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="214" Type="Mention" StartNode="53" EndNode="66">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="215" Type="Mention" StartNode="206" EndNode="211">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Epicentre</Value>
+</Feature>
+</Annotation>
+<Annotation Id="216" Type="Mention" StartNode="280" EndNode="286">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="217" Type="Mention" StartNode="288" EndNode="294">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="218" Type="Mention" StartNode="300" EndNode="306">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="219" Type="Mention" StartNode="461" EndNode="466">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="220" Type="Mention" StartNode="471" EndNode="477">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="221" Type="Mention" StartNode="487" EndNode="516">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="517">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="TimeOfEarthquake" StartNode="41" EndNode="49">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="DateOfEarthquake" StartNode="53" EndNode="66">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">21/06/1990</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Epicentre" StartNode="206" EndNode="211">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="OtherPlacesAffected" StartNode="280" EndNode="286">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="OtherPlacesAffected" StartNode="288" EndNode="294">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="OtherPlacesAffected" StartNode="300" EndNode="306">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="OtherPlacesAffected" StartNode="461" EndNode="466">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">4</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="OtherPlacesAffected" StartNode="471" EndNode="477">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">5</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Region" StartNode="487" EndNode="516">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

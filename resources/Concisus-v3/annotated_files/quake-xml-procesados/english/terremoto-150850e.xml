@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-150850e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>15 de agosto de 1950 <Node id="21"/>- On this date in 1950, a massive <Node id="55"/>8.6 <Node id="59"/>magnitude earthquake hit the Assam - <Node id="96"/>Tibet<Node id="101"/> region, killing at least <Node id="127"/>780<Node id="130"/> people, injuring thousands, and destroying many buildings. Cracks developed in the ground and large landslides occurred, and a village slid into a river and was washed away. Severe damage was also experienced in <Node id="343"/>Assam<Node id="348"/>, India and the vicinity. A natural dam broke 8 days after the earthquake, producing a 23 ft tall wave which destroyed several villages downstream and killed <Node id="506"/>536<Node id="509"/> people.<Node id="517"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="208" Type="Mention" StartNode="506" EndNode="509">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="203" Type="Mention" StartNode="0" EndNode="21">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="204" Type="Mention" StartNode="55" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="205" Type="Mention" StartNode="127" EndNode="130">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="206" Type="Mention" StartNode="343" EndNode="348">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="207" Type="Mention" StartNode="96" EndNode="101">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="517">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="0" EndNode="21">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">15/08/1950</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Magnitude" StartNode="55" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Fatalities" StartNode="127" EndNode="130">
+</Annotation>
+<Annotation Id="4" Type="OtherPlacesAffected" StartNode="343" EndNode="348">
+</Annotation>
+<Annotation Id="5" Type="Region" StartNode="96" EndNode="101">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="506" EndNode="509">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

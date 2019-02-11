@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-290709e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009&#xd;
+July 29&#xd;<Node id="14"/>
+Spain, <Node id="22"/>Burgos<Node id="28"/>: A <Node id="32"/>car bomb<Node id="40"/> containing 200 kilogrames of explosives exploded in a <Node id="95"/>14-story barracks of the Guardia Civil<Node id="133"/> in the northern city of <Node id="158"/>Burgos<Node id="164"/>. <Node id="166"/>no deaths<Node id="175"/> were reported, but more than <Node id="205"/>60<Node id="207"/> people were injured.<Node id="228"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="103" Type="Mention" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="Mention" StartNode="22" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="Mention" StartNode="32" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="Mention" StartNode="95" EndNode="133">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="Mention" StartNode="158" EndNode="164">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="Mention" StartNode="205" EndNode="207">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="Mention" StartNode="166" EndNode="175">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="228">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">29/07/09</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Place" StartNode="22" EndNode="28">
+</Annotation>
+<Annotation Id="4" Type="TypeOfAttack" StartNode="32" EndNode="40">
+</Annotation>
+<Annotation Id="5" Type="NameOfVictim" StartNode="95" EndNode="133">
+</Annotation>
+<Annotation Id="6" Type="Place" StartNode="158" EndNode="164">
+</Annotation>
+<Annotation Id="8" Type="Injured" StartNode="205" EndNode="207">
+</Annotation>
+<Annotation Id="10" Type="Fatalities" StartNode="166" EndNode="175">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

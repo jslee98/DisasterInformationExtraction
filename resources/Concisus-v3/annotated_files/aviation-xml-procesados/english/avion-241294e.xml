@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-241294e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>1994<Node id="4"/>&#xd;
+<Node id="6"/>December 24<Node id="17"/> ? <Node id="20"/>Air France<Node id="30"/> <Node id="31"/>Flight 8969<Node id="42"/>, an <Node id="47"/>Airbus A300<Node id="58"/>, is <Node id="63"/>hijacked<Node id="71"/> on the tarmac at <Node id="89"/>Algiers, Algeria<Node id="105"/> by the militant group GIA. After a two-day standoff, the plane is allowed to fly to<Node id="189"/> Marseille, France<Node id="207"/>, where it is stormed by French commandos who kill the hijackers.<Node id="272"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="119" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="Mention" StartNode="6" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="Mention" StartNode="20" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="31" EndNode="42">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Mention" StartNode="47" EndNode="58">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAircraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="Mention" StartNode="63" EndNode="71">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="Mention" StartNode="89" EndNode="105">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="189" EndNode="207">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="272">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="DateOfAccident" StartNode="6" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">24/12/1994</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Airline" StartNode="20" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="FlightNumber" StartNode="31" EndNode="42">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAircraft" StartNode="47" EndNode="58">
+</Annotation>
+<Annotation Id="6" Type="TypeOfAccident" StartNode="63" EndNode="71">
+</Annotation>
+<Annotation Id="7" Type="Place" StartNode="89" EndNode="105">
+</Annotation>
+<Annotation Id="8" Type="Destination" StartNode="189" EndNode="207">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-060204e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The <Node id="4"/>February 2004<Node id="17"/> <Node id="18"/>Moscow<Node id="24"/> <Node id="25"/>metro<Node id="30"/> <Node id="31"/>bombing<Node id="38"/> occurred on <Node id="51"/>6 February 2004<Node id="66"/> when a male <Node id="79"/>suicide bomber<Node id="93"/> killed <Node id="101"/>41<Node id="103"/> people near Avtozavodskaya subway station on the Zamoskvoretskaya Line in Moscow. Up to <Node id="192"/>120<Node id="195"/> people were injured in the incident, some of the more common injuries being broken bones and smoke inhalation.<Node id="306"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="116" Type="Mention" StartNode="4" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="Mention" StartNode="18" EndNode="24">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="118" Type="Mention" StartNode="25" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="119" Type="Mention" StartNode="31" EndNode="38">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="Mention" StartNode="51" EndNode="66">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="Mention" StartNode="79" EndNode="93">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="101" EndNode="103">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Mention" StartNode="192" EndNode="195">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="306">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="4" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">02/04</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Place" StartNode="18" EndNode="24">
+</Annotation>
+<Annotation Id="4" Type="NameOfVictim" StartNode="25" EndNode="30">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAttack" StartNode="31" EndNode="38">
+</Annotation>
+<Annotation Id="6" Type="DateOfAttack" StartNode="51" EndNode="66">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">06/02/04</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="TypeOfAttack" StartNode="79" EndNode="93">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="101" EndNode="103">
+</Annotation>
+<Annotation Id="9" Type="Injured" StartNode="192" EndNode="195">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

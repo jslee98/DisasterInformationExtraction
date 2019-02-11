@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-261203e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>On <Node id="3"/>26 December 2003<Node id="19"/>, a major earthquake struck the city of <Node id="59"/>Bam<Node id="62"/> in <Node id="66"/>Iran<Node id="70"/>, killing <Node id="80"/>26,000<Node id="86"/> people, injuring <Node id="104"/>30,000<Node id="110"/> and leaving <Node id="123"/>75,600<Node id="129"/> homeless.<Node id="139"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="65" Type="Mention" StartNode="3" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="66" Type="Mention" StartNode="59" EndNode="62">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="67" Type="Mention" StartNode="123" EndNode="129">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+<Annotation Id="68" Type="Mention" StartNode="66" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="69" Type="Mention" StartNode="80" EndNode="86">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="70" Type="Mention" StartNode="104" EndNode="110">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="139">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="3" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">26/12/2003</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="City" StartNode="59" EndNode="62">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Homeless" StartNode="123" EndNode="129">
+</Annotation>
+<Annotation Id="5" Type="Country" StartNode="66" EndNode="70">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="80" EndNode="86">
+</Annotation>
+<Annotation Id="7" Type="Injured" StartNode="104" EndNode="110">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

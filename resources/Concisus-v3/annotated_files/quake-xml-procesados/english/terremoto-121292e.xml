@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-131292e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 1992 Flores earthquake occurred on <Node id="39"/>December 12, 1992<Node id="56"/> on the <Node id="64"/>island of Flores<Node id="80"/> in <Node id="84"/>Indonesia<Node id="93"/>. With a magnitude of <Node id="115"/>7.8<Node id="118"/>, it was the largest and also the deadliest earthquake in 1992.&#xd;
+The quake hit at <Node id="200"/>05.29<Node id="205"/> UTC and was followed by several serious aftershocks. At least <Node id="268"/>2,500<Node id="273"/> people were killed or missing near Flores, including 1,490 at <Node id="336"/>Maumere<Node id="343"/> and 700 on <Node id="355"/>Babi<Node id="359"/>. More than <Node id="371"/>500<Node id="374"/> people were injured and <Node id="399"/>90,000<Node id="405"/> were left homeless.&#xd;
+<Node id="427"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="192" Type="Mention" StartNode="64" EndNode="80">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="193" Type="Mention" StartNode="84" EndNode="93">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="194" Type="Mention" StartNode="115" EndNode="118">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="195" Type="Mention" StartNode="200" EndNode="205">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="196" Type="Mention" StartNode="268" EndNode="273">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="197" Type="Mention" StartNode="336" EndNode="343">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="198" Type="Mention" StartNode="355" EndNode="359">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="199" Type="Mention" StartNode="371" EndNode="374">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="200" Type="Mention" StartNode="399" EndNode="405">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="Mention" StartNode="39" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="427">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="39" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">12/12/1992</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Region" StartNode="64" EndNode="80">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Country" StartNode="84" EndNode="93">
+</Annotation>
+<Annotation Id="4" Type="Magnitude" StartNode="115" EndNode="118">
+</Annotation>
+<Annotation Id="5" Type="TimeOfEarthquake" StartNode="200" EndNode="205">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="268" EndNode="273">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="OtherPlacesAffected" StartNode="336" EndNode="343">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="OtherPlacesAffected" StartNode="355" EndNode="359">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Injured" StartNode="371" EndNode="374">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Homeless" StartNode="399" EndNode="405">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

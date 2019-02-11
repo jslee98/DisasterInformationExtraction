@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-170709.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los Atentados del <Node id="18"/>17 de julio de 2009<Node id="37"/> en <Node id="41"/>Yakarta<Node id="48"/>, fueron una serie de atentados terroristas con <Node id="96"/>mochilas bomba<Node id="110"/>, perpetrados en tres oportunidades por la mañana en el <Node id="166"/>centro financiero de la ciudad<Node id="196"/> de Yakarta, más exactamente en hoteles de lujo, que dejaron al menos <Node id="266"/>9<Node id="267"/> muertos y <Node id="278"/>50<Node id="280"/> heridos, la mayoría extranjeros<Node id="312"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="119" Type="Mention" StartNode="18" EndNode="37">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="Mention" StartNode="41" EndNode="48">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="Mention" StartNode="96" EndNode="110">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="166" EndNode="196">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Mention" StartNode="266" EndNode="267">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="Mention" StartNode="278" EndNode="280">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="312">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="18" EndNode="37">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">17/07/09</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Place" StartNode="41" EndNode="48">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TypeOfAttack" StartNode="96" EndNode="110">
+</Annotation>
+<Annotation Id="4" Type="NameOfVictim" StartNode="166" EndNode="196">
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="266" EndNode="267">
+</Annotation>
+<Annotation Id="6" Type="Injured" StartNode="278" EndNode="280">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

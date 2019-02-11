@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-270210-01.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Concepción<Node id="10"/>, <Node id="12"/>Chile&#xd;<Node id="18"/>
+Era la madrugada del sábado <Node id="47"/>27 de febrero de 2010<Node id="68"/> cuando un terremotó de <Node id="92"/>8,8<Node id="95"/> grados destruyó varias zonas del país sudamericano.<Node id="147"/> 497 <Node id="152"/>muertos dejó esdte terremoto que afectó a casi el 80% de la población chilena. Este terremoto es considerado el segundo más fuerte del país y uno de los cinco más<Node id="314"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="130" Type="Mention" StartNode="0" EndNode="10">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Mention" StartNode="12" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="Mention" StartNode="47" EndNode="68">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="133" Type="Mention" StartNode="92" EndNode="95">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="Mention" StartNode="147" EndNode="152">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="314">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="City" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="4" Type="Country" StartNode="12" EndNode="18">
+</Annotation>
+<Annotation Id="5" Type="DateOfEarthquake" StartNode="47" EndNode="68">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/02/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Magnitude" StartNode="92" EndNode="95">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Fatalities" StartNode="147" EndNode="152">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

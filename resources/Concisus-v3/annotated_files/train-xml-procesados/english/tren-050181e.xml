@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/ferroviarios/tren-050181e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>January 5, 1981<Node id="15"/> ? According to Spanish EFE news agency report, a <Node id="65"/>Burgos<Node id="71"/>?<Node id="72"/>Madrid <Node id="79"/>passenger train<Node id="94"/> <Node id="95"/>ignored by a red traffic signal<Node id="126"/>, and <Node id="132"/>slammed head-on<Node id="147"/> into a <Node id="155"/>diesel locomotive car<Node id="176"/> at<Node id="179"/> Miraflores railroad station, Zaragoza, Spain<Node id="224"/>, <Node id="226"/>5<Node id="227"/> railroad workers and<Node id="248"/> 1<Node id="250"/> passenger killed.<Node id="268"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="112" Type="Mention" StartNode="226" EndNode="227">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="Mention" StartNode="248" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="Mention" StartNode="0" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="Mention" StartNode="65" EndNode="71">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="Mention" StartNode="72" EndNode="79">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="Mention" StartNode="79" EndNode="94">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="Mention" StartNode="95" EndNode="126">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Cause</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="Mention" StartNode="132" EndNode="147">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="Mention" StartNode="155" EndNode="176">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="Mention" StartNode="179" EndNode="224">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="268">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAccident" StartNode="0" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">05/01/1981</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Origin" StartNode="65" EndNode="71">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Destination" StartNode="72" EndNode="79">
+</Annotation>
+<Annotation Id="4" Type="TypeOfTrain" StartNode="79" EndNode="94">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Cause" StartNode="95" EndNode="126">
+</Annotation>
+<Annotation Id="6" Type="TypeOfAccident" StartNode="132" EndNode="147">
+</Annotation>
+<Annotation Id="7" Type="TypeOfTrain" StartNode="155" EndNode="176">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Place" StartNode="179" EndNode="224">
+</Annotation>
+<Annotation Id="9" Type="NumberOfVictims" StartNode="226" EndNode="227">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String">6</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="NumberOfVictims" StartNode="248" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

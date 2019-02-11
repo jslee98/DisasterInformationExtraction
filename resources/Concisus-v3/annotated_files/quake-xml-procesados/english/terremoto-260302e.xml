@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-260302e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>At about <Node id="9"/>7.30<Node id="13"/>pm, <Node id="17"/>March 26th 2002<Node id="32"/>, Northern <Node id="43"/>Afghanistan<Node id="54"/> was hit by an earthquake measuring <Node id="90"/>6<Node id="91"/> on the richter scale. The earthquake was centered in the <Node id="149"/>Hindu Kush mountains<Node id="169"/> in the <Node id="177"/>Nahrin<Node id="183"/> region. <Node id="192"/>10000<Node id="197"/> have been left homeless and at least <Node id="235"/>1,800<Node id="240"/> were killed in the quake. Many of the houses in the district capital were made of mud and the area was flattened.&#xd;
+<Node id="356"/>&#xd;
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="164" Type="Mention" StartNode="9" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="165" Type="Mention" StartNode="17" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="166" Type="Mention" StartNode="90" EndNode="91">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="167" Type="Mention" StartNode="149" EndNode="169">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Province</Value>
+</Feature>
+</Annotation>
+<Annotation Id="168" Type="Mention" StartNode="177" EndNode="183">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="169" Type="Mention" StartNode="43" EndNode="54">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="170" Type="Mention" StartNode="192" EndNode="197">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+<Annotation Id="171" Type="Mention" StartNode="235" EndNode="240">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="356">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="TimeOfEarthquake" StartNode="9" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="DateOfEarthquake" StartNode="17" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">26/03/2002</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Magnitude" StartNode="90" EndNode="91">
+</Annotation>
+<Annotation Id="6" Type="Province" StartNode="149" EndNode="169">
+</Annotation>
+<Annotation Id="7" Type="Region" StartNode="177" EndNode="183">
+</Annotation>
+<Annotation Id="8" Type="Country" StartNode="43" EndNode="54">
+</Annotation>
+<Annotation Id="9" Type="Homeless" StartNode="192" EndNode="197">
+</Annotation>
+<Annotation Id="10" Type="Fatalities" StartNode="235" EndNode="240">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

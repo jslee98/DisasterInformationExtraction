@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-040701.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2001<Node id="4"/>&#xd;
+<Node id="6"/>4 de julio<Node id="16"/>: el <Node id="21"/>vuelo XF352<Node id="32"/> de la aerolínea<Node id="48"/> Vladivostok Avia<Node id="65"/> <Node id="66"/>perdió el control en la fase de aterrizaje<Node id="108"/> en el aeropuerto de escala en <Node id="139"/>Aeropuerto Internacional de Irkutsk<Node id="174"/>. Todos los pasajeros y la tripulación, un total de <Node id="226"/>134 <Node id="230"/>personas, fallecieron en el <Node id="258"/>choque<Node id="264"/>.<Node id="265"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="112" Type="Mention" StartNode="21" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="Mention" StartNode="48" EndNode="65">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="Mention" StartNode="66" EndNode="108">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="115" Type="Mention" StartNode="139" EndNode="174">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="116" Type="Mention" StartNode="226" EndNode="230">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="Mention" StartNode="258" EndNode="264">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Cause</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="Mention" StartNode="6" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="265">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="DateOfAccident" StartNode="6" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">040701</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="FlightNumber" StartNode="21" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Airline" StartNode="48" EndNode="65">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAccident" StartNode="66" EndNode="108">
+</Annotation>
+<Annotation Id="6" Type="Place" StartNode="139" EndNode="174">
+</Annotation>
+<Annotation Id="7" Type="NumberOfVictims" StartNode="226" EndNode="230">
+</Annotation>
+<Annotation Id="8" Type="Cause" StartNode="258" EndNode="264">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

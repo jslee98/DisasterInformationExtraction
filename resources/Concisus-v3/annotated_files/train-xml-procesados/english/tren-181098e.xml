@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/ferroviarios/tren-181098e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>October 18, 1998<Node id="16"/> ? According to Egyptian Nile TV report, an <Node id="60"/>Alexandria<Node id="70"/>?<Node id="71"/>Cairo<Node id="76"/> <Node id="77"/>passenger train<Node id="92"/> <Node id="93"/>crashes<Node id="100"/> at <Node id="104"/>Kafr el-Dawar station, Nile Delta, Egypt<Node id="144"/>, in an incident caused by <Node id="171"/>train driver exceeding the speed limit<Node id="209"/>, killing <Node id="219"/>47<Node id="221"/> people, another <Node id="238"/>104<Node id="241"/> are injured.<Node id="254"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="112" Type="Mention" StartNode="171" EndNode="209">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Cause</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="Mention" StartNode="219" EndNode="221">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="Mention" StartNode="238" EndNode="241">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="Mention" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="Mention" StartNode="60" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="Mention" StartNode="71" EndNode="76">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="Mention" StartNode="77" EndNode="92">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="Mention" StartNode="93" EndNode="100">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="Mention" StartNode="104" EndNode="144">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAccident" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">18/10/1998</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Origin" StartNode="60" EndNode="70">
+</Annotation>
+<Annotation Id="8" Type="Destination" StartNode="71" EndNode="76">
+</Annotation>
+<Annotation Id="9" Type="TypeOfTrain" StartNode="77" EndNode="92">
+</Annotation>
+<Annotation Id="10" Type="TypeOfAccident" StartNode="93" EndNode="100">
+</Annotation>
+<Annotation Id="11" Type="Place" StartNode="104" EndNode="144">
+</Annotation>
+<Annotation Id="12" Type="Cause" StartNode="171" EndNode="209">
+</Annotation>
+<Annotation Id="13" Type="NumberOfVictims" StartNode="219" EndNode="221">
+</Annotation>
+<Annotation Id="14" Type="Survivors" StartNode="238" EndNode="241">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

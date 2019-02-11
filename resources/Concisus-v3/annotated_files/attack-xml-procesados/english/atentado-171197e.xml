@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-171197e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>1997&#xd;<Node id="5"/>
+Egypt, <Node id="13"/>November 17<Node id="24"/>: <Node id="26"/>Luxor<Node id="31"/> Massacre ? <Node id="43"/>Islamist gunmen<Node id="58"/> attack tourists at Deir el-Bahri in Luxor, killing <Node id="110"/>62<Node id="112"/> and injuring <Node id="126"/>24<Node id="128"/> people, most of them <Node id="150"/>European and Japanese holidaymakers<Node id="185"/>.<Node id="186"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="80" Type="Mention" StartNode="43" EndNode="58">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="81" Type="Mention" StartNode="110" EndNode="112">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="82" Type="Mention" StartNode="126" EndNode="128">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="83" Type="Mention" StartNode="150" EndNode="185">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="77" Type="Mention" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="78" Type="Mention" StartNode="13" EndNode="24">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="79" Type="Mention" StartNode="26" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="186">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="4" Type="DateOfAttack" StartNode="13" EndNode="24">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">17/11/97</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="26" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Perpetrator" StartNode="43" EndNode="58">
+</Annotation>
+<Annotation Id="7" Type="Fatalities" StartNode="110" EndNode="112">
+</Annotation>
+<Annotation Id="8" Type="Injured" StartNode="126" EndNode="128">
+</Annotation>
+<Annotation Id="9" Type="NameOfVictim" StartNode="150" EndNode="185">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

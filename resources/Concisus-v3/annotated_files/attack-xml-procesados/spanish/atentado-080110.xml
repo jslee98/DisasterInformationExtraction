@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-080110.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El Ataque a la <Node id="15"/>Selección de fútbol de Togo<Node id="42"/> fue un ataque <Node id="57"/>terrorista<Node id="67"/> en contra del bus de la Selección de fútbol de Togo que ocurrió el <Node id="135"/>8 de enero de 2010<Node id="153"/> mientras el equipo viajaba de la <Node id="187"/>República del Congo<Node id="206"/> hacia Angola camino a la Copa Africana de Naciones 2010.<Node id="263"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="112" Type="Mention" StartNode="57" EndNode="67">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="Mention" StartNode="15" EndNode="42">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="Mention" StartNode="135" EndNode="153">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="Mention" StartNode="187" EndNode="206">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="263">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="NameOfVictim" StartNode="15" EndNode="42">
+</Annotation>
+<Annotation Id="2" Type="DateOfAttack" StartNode="135" EndNode="153">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">08/01/10</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Place" StartNode="187" EndNode="206">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="TypeOfAttack" StartNode="57" EndNode="67">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

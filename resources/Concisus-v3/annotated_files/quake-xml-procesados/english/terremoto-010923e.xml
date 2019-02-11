@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-010923e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 1923 Great Kanto earthquake struck the <Node id="43"/>Kanto<Node id="48"/> plain on the Japanese main <Node id="76"/>island of Honshu<Node id="92"/> at <Node id="96"/>11:58:44<Node id="104"/> am JST on <Node id="115"/>September 1, 1923<Node id="132"/>. Varied accounts hold that the duration of the earthquake was between 4 and 10 minutes. The Kanto quake killed between<Node id="251"/> 100,000 <Node id="260"/>and 140,000 people, making it the deadliest earthquake ever to strike <Node id="330"/>Japan<Node id="335"/>.<Node id="336"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="144" Type="Mention" StartNode="330" EndNode="335">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="139" Type="Mention" StartNode="43" EndNode="48">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="140" Type="Mention" StartNode="76" EndNode="92">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Epicentre</Value>
+</Feature>
+</Annotation>
+<Annotation Id="141" Type="Mention" StartNode="96" EndNode="104">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="142" Type="Mention" StartNode="115" EndNode="132">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="143" Type="Mention" StartNode="251" EndNode="260">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="336">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Region" StartNode="43" EndNode="48">
+</Annotation>
+<Annotation Id="2" Type="Epicentre" StartNode="76" EndNode="92">
+</Annotation>
+<Annotation Id="3" Type="TimeOfEarthquake" StartNode="96" EndNode="104">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="DateOfEarthquake" StartNode="115" EndNode="132">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">01/09/1923</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="251" EndNode="260">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Country" StartNode="330" EndNode="335">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

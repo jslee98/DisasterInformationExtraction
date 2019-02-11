@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-270506.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>27 mayo 2006&#xd;<Node id="13"/>
+<Node id="14"/>Isla de Java<Node id="26"/> (<Node id="28"/>Indonesia<Node id="37"/>): un terremoto de magnitud <Node id="65"/>6,2<Node id="68"/> Richter causa al menos <Node id="92"/>6.234<Node id="97"/> muertos, <Node id="107"/>20.000<Node id="113"/> heridos y <Node id="124"/>340.000<Node id="131"/> desplazados.<Node id="144"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="71" Type="Mention" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="72" Type="Mention" StartNode="14" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="73" Type="Mention" StartNode="28" EndNode="37">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="74" Type="Mention" StartNode="65" EndNode="68">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="75" Type="Mention" StartNode="92" EndNode="97">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="76" Type="Mention" StartNode="124" EndNode="131">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+<Annotation Id="77" Type="Mention" StartNode="107" EndNode="113">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="144">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/05/2006</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Region" StartNode="14" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Country" StartNode="28" EndNode="37">
+</Annotation>
+<Annotation Id="4" Type="Magnitude" StartNode="65" EndNode="68">
+</Annotation>
+<Annotation Id="5" Type="Injured" StartNode="92" EndNode="97">
+</Annotation>
+<Annotation Id="6" Type="Homeless" StartNode="124" EndNode="131">
+</Annotation>
+<Annotation Id="7" Type="Injured" StartNode="107" EndNode="113">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

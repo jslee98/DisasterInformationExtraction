@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-231272e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 1972 <Node id="9"/>Nicaragua<Node id="18"/> earthquake was an earthquake that occurred at <Node id="65"/>12:29<Node id="70"/> a.m. local time (06:29 UTC) on Saturday, <Node id="112"/>December 23, 1972<Node id="129"/> near Managua, the capital of Nicaragua. It had a magnitude of <Node id="192"/>6.2 <Node id="196"/>and occurred at a depth of about <Node id="229"/>5<Node id="230"/> kilometers beneath the centre of the city. Within an hour after the main shock, two aftershocks, one of magnitude 5.0 and the other 5.2, occurred. The earthquake caused widespread damage, among <Node id="425"/>Managua<Node id="432"/>'s residents, <Node id="446"/>5,000<Node id="451"/> were killed, <Node id="465"/>20,000<Node id="471"/> were injured and over <Node id="494"/>250,000<Node id="501"/> were left homeless.<Node id="521"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="229" Type="Mention" StartNode="9" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="230" Type="Mention" StartNode="65" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="231" Type="Mention" StartNode="112" EndNode="129">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="232" Type="Mention" StartNode="192" EndNode="196">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="233" Type="Mention" StartNode="229" EndNode="230">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Depth</Value>
+</Feature>
+</Annotation>
+<Annotation Id="234" Type="Mention" StartNode="425" EndNode="432">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="235" Type="Mention" StartNode="446" EndNode="451">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="236" Type="Mention" StartNode="465" EndNode="471">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="237" Type="Mention" StartNode="494" EndNode="501">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="521">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Country" StartNode="9" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="TimeOfEarthquake" StartNode="65" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="DateOfEarthquake" StartNode="112" EndNode="129">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">23/12/1972</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Magnitude" StartNode="192" EndNode="196">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Depth" StartNode="229" EndNode="230">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">km</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="City" StartNode="425" EndNode="432">
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="446" EndNode="451">
+</Annotation>
+<Annotation Id="9" Type="Injured" StartNode="465" EndNode="471">
+</Annotation>
+<Annotation Id="10" Type="Homeless" StartNode="494" EndNode="501">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

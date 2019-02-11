@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-280710.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2010<Node id="4"/>&#xd;
+<Node id="6"/>28 de julio<Node id="17"/>: el<Node id="21"/> vuelo 202<Node id="31"/> de la compañía pakistaní <Node id="57"/>AirBlue<Node id="64"/> se estrella cerca de su destino en <Node id="100"/>Islamabad<Node id="109"/>. Los <Node id="115"/>146 <Node id="119"/>pasajeros y <Node id="131"/>6<Node id="132"/> tripulantes fallecieron. Al parecer las razones del accidente fueron por motivo de la <Node id="219"/>densa niebla y lluvia monzónica<Node id="250"/> de la región. <Node id="265"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="113" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="Mention" StartNode="6" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="115" Type="Mention" StartNode="21" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="116" Type="Mention" StartNode="57" EndNode="64">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="Mention" StartNode="100" EndNode="109">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="118" Type="Mention" StartNode="115" EndNode="119">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="119" Type="Mention" StartNode="131" EndNode="132">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Tripulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="Mention" StartNode="219" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Cause</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="265">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="DateOfAccident" StartNode="6" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/07/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="FlightNumber" StartNode="21" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="TypeOfAccident" StartNode="57" EndNode="64">
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="100" EndNode="109">
+</Annotation>
+<Annotation Id="6" Type="NumberOfVictims" StartNode="115" EndNode="119">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String">152</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Tripulation" StartNode="131" EndNode="132">
+</Annotation>
+<Annotation Id="8" Type="Cause" StartNode="219" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

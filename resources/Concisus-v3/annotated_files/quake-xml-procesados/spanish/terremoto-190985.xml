@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-190985.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>México D.F.<Node id="11"/>, <Node id="13"/>México<Node id="19"/>&#xd;
+Ocurrido el <Node id="33"/>19 de septiembre de 1985<Node id="57"/>, es el terremeto más importante de Méjico. Con <Node id="105"/>7,9<Node id="108"/> grados en la escala de Richter tuvo <Node id="145"/>2<Node id="146"/> minutos de duración y ocurrió a las <Node id="183"/>7:19<Node id="187"/> a.m. No se conoce con exactitud el número de muertes, pues algunos hablan de 6 mil, 7 mil, <Node id="279"/>10000 <Node id="285"/>y hasta 40 mil muertos.<Node id="308"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="151" Type="Mention" StartNode="0" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="152" Type="Mention" StartNode="13" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="153" Type="Mention" StartNode="33" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="154" Type="Mention" StartNode="105" EndNode="108">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="155" Type="Mention" StartNode="145" EndNode="146">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Duration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="156" Type="Mention" StartNode="183" EndNode="187">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="157" Type="Mention" StartNode="279" EndNode="285">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="308">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="City" StartNode="0" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="Country" StartNode="13" EndNode="19">
+</Annotation>
+<Annotation Id="3" Type="DateOfEarthquake" StartNode="33" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">19/09/1985</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Magnitude" StartNode="105" EndNode="108">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Duration" StartNode="145" EndNode="146">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">minutes</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="TimeOfEarthquake" StartNode="183" EndNode="187">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="279" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

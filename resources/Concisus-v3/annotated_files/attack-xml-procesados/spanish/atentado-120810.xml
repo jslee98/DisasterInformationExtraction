@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-120810.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El atentado al edificio de Caracol Radio fue un ataque terrorista dirigido contra la sede de <Node id="93"/>Caracol Radio<Node id="106"/> ubicada sobre la emblemática "carrera séptima", principal cadena radial de Colombia en la ciudad capital de <Node id="215"/>Bogotá<Node id="221"/>. Fue cometido el <Node id="239"/>12 de agosto de 2010<Node id="259"/> a las 5:30 de la madrugada en hora local. El atentado fue realizado con un <Node id="335"/>coche bomba<Node id="346"/> cargado con cincuenta kilos de anfo y un cilindro de gas. El explosivo fue activado aparentemente mediante un teléfono celular o un control remoto.<Node id="494"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="192" Type="Mention" StartNode="215" EndNode="221">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="193" Type="Mention" StartNode="239" EndNode="259">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="194" Type="Mention" StartNode="335" EndNode="346">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="Mention" StartNode="93" EndNode="106">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="494">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="NameOfVictim" StartNode="93" EndNode="106">
+</Annotation>
+<Annotation Id="3" Type="Place" StartNode="215" EndNode="221">
+</Annotation>
+<Annotation Id="4" Type="DateOfAttack" StartNode="239" EndNode="259">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">12/08/10  </Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="TypeOfAttack" StartNode="335" EndNode="346">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

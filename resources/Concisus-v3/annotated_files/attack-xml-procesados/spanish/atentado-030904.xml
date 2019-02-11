@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-030904.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>3 de septiembre de 2004&#xd;<Node id="24"/>
+<Node id="25"/>&#xd;
+<Node id="27"/>336<Node id="30"/> personas mueren, la mitad niños, tras el asalto de las <Node id="86"/>fuerzas rusas<Node id="99"/> en una <Node id="107"/>escuela<Node id="114"/> en <Node id="118"/>Beslan<Node id="124"/>, en Osetia del Norte, en la que unas 1.200 personas llevaban más de dos días secuestradas por un <Node id="222"/>comando pro-checheno<Node id="242"/>. <Node id="244"/>31<Node id="246"/> secuestradores murieron durante el asalto. <Node id="290"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="128" Type="Mention" StartNode="107" EndNode="114">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="Mention" StartNode="118" EndNode="124">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="Mention" StartNode="244" EndNode="246">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Mention" StartNode="86" EndNode="99">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="Mention" StartNode="222" EndNode="242">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="0" EndNode="24">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Mention" StartNode="27" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="25">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="27" EndNode="290">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="2" Type="DateOfAttack" StartNode="0" EndNode="24">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">03/09/04</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Fatalities" StartNode="27" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="NameOfVictim" StartNode="107" EndNode="114">
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="118" EndNode="124">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="244" EndNode="246">
+</Annotation>
+<Annotation Id="7" Type="Perpetrator" StartNode="86" EndNode="99">
+</Annotation>
+<Annotation Id="8" Type="Perpetrator" StartNode="222" EndNode="242">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

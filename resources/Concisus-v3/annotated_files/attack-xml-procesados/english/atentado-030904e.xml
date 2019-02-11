@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-030904e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>September 1 2004&#xd;<Node id="17"/>
+Russia, Beslan, A group of thirty to thirty-five armed <Node id="73"/>Chechen separatists<Node id="92"/>, including men and women, many wearing suicide bomber belts, seized a <Node id="163"/>school<Node id="169"/> in the Southern Russian town of <Node id="202"/>Belsan<Node id="208"/> taking children, parents, and teachers hostage in the school gym. A series of explosions shook the school, followed by a fire which engulfed the building and a chaotic gunbattle between the hostage-takers and <Node id="418"/>Russian security forces<Node id="441"/>. Ultimately, at least <Node id="464"/>334<Node id="467"/> hostages were killed, including 186 children and <Node id="517"/>727<Node id="520"/> injured.<Node id="529"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="193" Type="Mention" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="194" Type="Mention" StartNode="73" EndNode="92">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="195" Type="Mention" StartNode="202" EndNode="208">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="196" Type="Mention" StartNode="418" EndNode="441">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="197" Type="Mention" StartNode="464" EndNode="467">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="198" Type="Mention" StartNode="517" EndNode="520">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="199" Type="Mention" StartNode="163" EndNode="169">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="529">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">01/09/04</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Perpetrator" StartNode="73" EndNode="92">
+</Annotation>
+<Annotation Id="4" Type="Place" StartNode="202" EndNode="208">
+</Annotation>
+<Annotation Id="5" Type="Perpetrator" StartNode="418" EndNode="441">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="464" EndNode="467">
+</Annotation>
+<Annotation Id="7" Type="Injured" StartNode="517" EndNode="520">
+</Annotation>
+<Annotation Id="8" Type="NameOfVictim" StartNode="163" EndNode="169">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

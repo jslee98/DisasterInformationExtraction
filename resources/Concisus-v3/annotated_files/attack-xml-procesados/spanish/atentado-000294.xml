@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-000294.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Masacre en una <Node id="15"/>mezquita de Hebrón<Node id="33"/>  &#xd;
+En<Node id="39"/> febrero de 1994<Node id="55"/>, <Node id="57"/>Baruch Goldstein<Node id="73"/>, un extremista de derecha judio, ingresa sorpresivamente en una mezquita centrica de <Node id="159"/>Hebron<Node id="165"/> <Node id="166"/>disparando con armas automaticas<Node id="198"/> y dando muerte a <Node id="216"/>29<Node id="218"/> asistentes ademas de herir a otros <Node id="254"/>150<Node id="257"/>. La agitacion que despierta el suceso provoca disturbios en los que mueren otros <Node id="339"/>22<Node id="341"/> civiles ademas de <Node id="360"/>cientos<Node id="367"/> de heridos. <Node id="380"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="146" Type="Mention" StartNode="39" EndNode="55">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="147" Type="Mention" StartNode="57" EndNode="73">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="148" Type="Mention" StartNode="159" EndNode="165">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="149" Type="Mention" StartNode="166" EndNode="198">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="150" Type="Mention" StartNode="216" EndNode="218">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="151" Type="Mention" StartNode="254" EndNode="257">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="152" Type="Mention" StartNode="339" EndNode="341">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="153" Type="Mention" StartNode="360" EndNode="367">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="154" Type="Mention" StartNode="15" EndNode="33">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="380">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="39" EndNode="55">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">02/94</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Perpetrator" StartNode="57" EndNode="73">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Place" StartNode="159" EndNode="165">
+</Annotation>
+<Annotation Id="4" Type="TypeOfAttack" StartNode="166" EndNode="198">
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="216" EndNode="218">
+</Annotation>
+<Annotation Id="6" Type="Injured" StartNode="254" EndNode="257">
+</Annotation>
+<Annotation Id="7" Type="Fatalities" StartNode="339" EndNode="341">
+</Annotation>
+<Annotation Id="8" Type="Injured" StartNode="360" EndNode="367">
+</Annotation>
+<Annotation Id="10" Type="NameOfVictim" StartNode="15" EndNode="33">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

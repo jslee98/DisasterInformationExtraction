@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-010111.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Un atentado de Alejandría se produjo poco después de la medianoche el <Node id="70"/>1 de enero de 2011<Node id="88"/> en <Node id="92"/>Alejandría<Node id="102"/>, Egipto. Un <Node id="115"/>artefacto explosivo<Node id="134"/> detonó afuera de la <Node id="155"/>iglesia de Al-Qiddissine<Node id="179"/> (San Marcos y San Pedro el Papa también conocido como Iglesia de los Santos de la Iglesia), donde los fieles coptos ortodoxos se habían reunido para celebrar la Misa en la víspera de Año Nuevo. Al menos <Node id="383"/>21<Node id="385"/> murieron y otras <Node id="403"/>70<Node id="405"/> personas resultaron heridas. A pesar de que inicialmente se pensó que el dispositivo fue un coche bomba, las autoridades egipcias dijeron que fue perpetrado probablemente por un <Node id="584"/>terrorista suicida<Node id="602"/>.<Node id="603"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="228" Type="Mention" StartNode="70" EndNode="88">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="229" Type="Mention" StartNode="92" EndNode="102">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="230" Type="Mention" StartNode="115" EndNode="134">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="231" Type="Mention" StartNode="155" EndNode="179">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="232" Type="Mention" StartNode="383" EndNode="385">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="233" Type="Mention" StartNode="403" EndNode="405">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="234" Type="Mention" StartNode="584" EndNode="602">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="603">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="70" EndNode="88">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">01/01/11</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Place" StartNode="92" EndNode="102">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="TypeOfAttack" StartNode="115" EndNode="134">
+</Annotation>
+<Annotation Id="5" Type="NameOfVictim" StartNode="155" EndNode="179">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="383" EndNode="385">
+</Annotation>
+<Annotation Id="7" Type="Injured" StartNode="403" EndNode="405">
+</Annotation>
+<Annotation Id="8" Type="Perpetrator" StartNode="584" EndNode="602">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

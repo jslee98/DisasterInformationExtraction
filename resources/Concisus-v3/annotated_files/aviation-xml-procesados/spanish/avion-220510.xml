@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-220510.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2010<Node id="4"/>&#xd;
+<Node id="6"/>22 de mayo<Node id="16"/>: Un <Node id="21"/>Boeing 737<Node id="31"/> de la Compañía <Node id="47"/>Air India Express<Node id="64"/> se <Node id="68"/>estrella<Node id="76"/> al aterrizar en el aeropuerto <Node id="107"/>Mangalore-Bajpe en la India<Node id="134"/>. Fallecieron <Node id="148"/>158<Node id="151"/> de los 166 ocupantes del aparato. El avión cubría la ruta <Node id="210"/>Dubai<Node id="215"/> - <Node id="218"/>Mangalore<Node id="227"/> y <Node id="230"/>se salió de la pista en el aterrizaje.<Node id="268"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="128" Type="Mention" StartNode="148" EndNode="151">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="Mention" StartNode="210" EndNode="215">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="Mention" StartNode="218" EndNode="227">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Mention" StartNode="230" EndNode="268">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Cause</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Mention" StartNode="6" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="Mention" StartNode="21" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAircraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="Mention" StartNode="47" EndNode="64">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="68" EndNode="76">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Mention" StartNode="107" EndNode="134">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="268">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="DateOfAccident" StartNode="6" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">22/05/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TypeOfAircraft" StartNode="21" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Airline" StartNode="47" EndNode="64">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAccident" StartNode="68" EndNode="76">
+</Annotation>
+<Annotation Id="6" Type="Place" StartNode="107" EndNode="134">
+</Annotation>
+<Annotation Id="7" Type="NumberOfVictims" StartNode="148" EndNode="151">
+</Annotation>
+<Annotation Id="8" Type="Origin" StartNode="210" EndNode="215">
+</Annotation>
+<Annotation Id="9" Type="Destination" StartNode="218" EndNode="227">
+</Annotation>
+<Annotation Id="10" Type="Cause" StartNode="230" EndNode="268">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

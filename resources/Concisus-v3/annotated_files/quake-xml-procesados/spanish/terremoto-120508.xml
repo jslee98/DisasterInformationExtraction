@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-120508.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Este de <Node id="8"/>Sichuan<Node id="15"/>, <Node id="17"/>China<Node id="22"/>&#xd;
+Un seísmo de <Node id="37"/>7,9<Node id="40"/> grados en la escala Richter tuvo lugar el <Node id="83"/>12 de mayo de 2008<Node id="101"/>, provocando <Node id="114"/>87.587<Node id="120"/> muertos. Sin embargo, el número total de afectados por el terremoto asciende a <Node id="200"/>45,500000<Node id="209"/> millones.<Node id="219"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="99" Type="Mention" StartNode="8" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Province</Value>
+</Feature>
+</Annotation>
+<Annotation Id="100" Type="Mention" StartNode="17" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="101" Type="Mention" StartNode="37" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="102" Type="Mention" StartNode="83" EndNode="101">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="103" Type="Mention" StartNode="114" EndNode="120">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="Mention" StartNode="200" EndNode="209">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="219">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Province" StartNode="8" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="Country" StartNode="17" EndNode="22">
+</Annotation>
+<Annotation Id="3" Type="Magnitude" StartNode="37" EndNode="40">
+</Annotation>
+<Annotation Id="4" Type="DateOfEarthquake" StartNode="83" EndNode="101">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">12/05/2008</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="114" EndNode="120">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Homeless" StartNode="200" EndNode="209">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

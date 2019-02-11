@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-000898.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>agosto de 1998<Node id="17"/> en <Node id="21"/>Omagh<Node id="26"/>, Irlanda del Norte un grupo disidente del <Node id="69"/>IRA<Node id="72"/> (Ejercito Republicano Irlandes) <Node id="105"/>detona un auto bomba<Node id="125"/> estacionado en una de sus mas concurridas calles comerciales en horario de gran afluencia de publico. Mueren <Node id="235"/>29<Node id="237"/> personas, entre ellos turistas extranjeros, y mas de <Node id="291"/>200<Node id="294"/> resultan heridas.<Node id="312"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="117" Type="Mention" StartNode="3" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="118" Type="Mention" StartNode="21" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="119" Type="Mention" StartNode="69" EndNode="72">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="Mention" StartNode="105" EndNode="125">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="Mention" StartNode="235" EndNode="237">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="291" EndNode="294">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="312">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="3" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">08/98</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Place" StartNode="21" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Perpetrator" StartNode="69" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="TypeOfAttack" StartNode="105" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="235" EndNode="237">
+</Annotation>
+<Annotation Id="6" Type="Injured" StartNode="291" EndNode="294">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

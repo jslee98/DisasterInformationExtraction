@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-070203e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 2003 <Node id="9"/>El Nogal Club<Node id="22"/> <Node id="23"/>bombing<Node id="30"/> was a terrorist attack that occurred in <Node id="71"/>Bogotá<Node id="77"/>, Colombia. On <Node id="92"/>February 7, 2003<Node id="108"/>, a car containing 200 kg of explosives that was parked in a garage on the third floor of the multi-story <Node id="214"/>El Nogal club<Node id="227"/> exploded, killing <Node id="246"/>36<Node id="248"/> people and wounding more than <Node id="279"/>200<Node id="282"/>. <Node id="284"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="120" Type="Mention" StartNode="9" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="Mention" StartNode="23" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="71" EndNode="77">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Mention" StartNode="92" EndNode="108">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="Mention" StartNode="246" EndNode="248">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="Mention" StartNode="279" EndNode="282">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="214" EndNode="227">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="284">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="NameOfVictim" StartNode="9" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="TypeOfAttack" StartNode="23" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="Place" StartNode="71" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="DateOfAttack" StartNode="92" EndNode="108">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">07/02/03</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="246" EndNode="248">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Injured" StartNode="279" EndNode="282">
+</Annotation>
+<Annotation Id="7" Type="NameOfVictim" StartNode="214" EndNode="227">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

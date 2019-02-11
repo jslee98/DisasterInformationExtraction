@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-270776.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Tangshan<Node id="8"/>, <Node id="10"/>China<Node id="15"/>&#xd;
+El <Node id="20"/>27 de julio de 1976<Node id="39"/> se registraron <Node id="55"/>255.000<Node id="62"/> muertes, según datos oficiales, causadas por un terremoto de magnitud <Node id="133"/>7,5<Node id="136"/> en la zona de Tangshan. Sin embargo, se estima que en realidad fallecieron unas 650.000 personas y hubo casi <Node id="246"/>800.000<Node id="253"/> heridos.<Node id="262"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="112" Type="Mention" StartNode="0" EndNode="8">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="Mention" StartNode="10" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="Mention" StartNode="20" EndNode="39">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="115" Type="Mention" StartNode="55" EndNode="62">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="116" Type="Mention" StartNode="133" EndNode="136">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="Mention" StartNode="246" EndNode="253">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="262">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Region" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="Country" StartNode="10" EndNode="15">
+</Annotation>
+<Annotation Id="3" Type="DateOfEarthquake" StartNode="20" EndNode="39">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/07/1976</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Fatalities" StartNode="55" EndNode="62">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Magnitude" StartNode="133" EndNode="136">
+</Annotation>
+<Annotation Id="6" Type="Injured" StartNode="246" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-010609e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009<Node id="4"/>&#xd;
+<Node id="6"/>June 1<Node id="12"/> ? <Node id="15"/>Air France<Node id="25"/> <Node id="26"/>Flight 447<Node id="36"/>, an <Node id="41"/>Airbus A330-200 <Node id="57"/>flying from <Node id="69"/>Rio de Janeiro, Brazil<Node id="91"/> to <Node id="95"/>Paris, France<Node id="108"/>, <Node id="110"/>crashes<Node id="117"/> in the <Node id="125"/>Atlantic Ocean<Node id="139"/> killing all <Node id="152"/>228 <Node id="156"/>occupants, including <Node id="177"/>12<Node id="179"/> crew; bodies and aircraft debris are not recovered until several days later.<Node id="256"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="112" Type="Mention" StartNode="6" EndNode="12">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="Mention" StartNode="15" EndNode="25">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="Mention" StartNode="26" EndNode="36">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="115" Type="Mention" StartNode="41" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAircraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="116" Type="Mention" StartNode="69" EndNode="91">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="Mention" StartNode="95" EndNode="108">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="118" Type="Mention" StartNode="110" EndNode="117">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="119" Type="Mention" StartNode="125" EndNode="139">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="Mention" StartNode="152" EndNode="156">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="Mention" StartNode="177" EndNode="179">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Tripulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="256">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="DateOfAccident" StartNode="6" EndNode="12">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">01/06/2009</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Airline" StartNode="15" EndNode="25">
+</Annotation>
+<Annotation Id="4" Type="FlightNumber" StartNode="26" EndNode="36">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAircraft" StartNode="41" EndNode="57">
+</Annotation>
+<Annotation Id="6" Type="Origin" StartNode="69" EndNode="91">
+</Annotation>
+<Annotation Id="7" Type="Destination" StartNode="95" EndNode="108">
+</Annotation>
+<Annotation Id="8" Type="TypeOfAccident" StartNode="110" EndNode="117">
+</Annotation>
+<Annotation Id="9" Type="Place" StartNode="125" EndNode="139">
+</Annotation>
+<Annotation Id="10" Type="NumberOfVictims" StartNode="152" EndNode="156">
+</Annotation>
+<Annotation Id="11" Type="Tripulation" StartNode="177" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

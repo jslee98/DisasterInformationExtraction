@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-040809e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009<Node id="4"/>&#xd;
+<Node id="6"/>August 4<Node id="14"/> ? <Node id="17"/>Bangkok Airways<Node id="32"/> <Node id="33"/>Flight 266<Node id="43"/>, an <Node id="48"/>ATR 72-200<Node id="58"/> carrying 68 passengers <Node id="82"/>crashes<Node id="89"/> in <Node id="93"/>severe weather on landing<Node id="118"/> at <Node id="122"/>Samui airport in the resort island of Ko Samui in Thailand<Node id="180"/>, resulting in at least <Node id="204"/>1<Node id="205"/> confirmed death and <Node id="226"/>37<Node id="228"/> injuries.<Node id="238"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="112" Type="Mention" StartNode="226" EndNode="228">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+<Annotation Id="103" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="Mention" StartNode="6" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="Mention" StartNode="17" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="Mention" StartNode="33" EndNode="43">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="Mention" StartNode="48" EndNode="58">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAircraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="Mention" StartNode="82" EndNode="89">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="Mention" StartNode="93" EndNode="118">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Cause</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="Mention" StartNode="122" EndNode="180">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="Mention" StartNode="204" EndNode="205">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="238">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="DateOfAccident" StartNode="6" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">04/08/2009</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Airline" StartNode="17" EndNode="32">
+</Annotation>
+<Annotation Id="4" Type="FlightNumber" StartNode="33" EndNode="43">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAircraft" StartNode="48" EndNode="58">
+</Annotation>
+<Annotation Id="6" Type="TypeOfAccident" StartNode="82" EndNode="89">
+</Annotation>
+<Annotation Id="7" Type="Cause" StartNode="93" EndNode="118">
+</Annotation>
+<Annotation Id="8" Type="Place" StartNode="122" EndNode="180">
+</Annotation>
+<Annotation Id="9" Type="NumberOfVictims" StartNode="204" EndNode="205">
+</Annotation>
+<Annotation Id="10" Type="Survivors" StartNode="226" EndNode="228">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

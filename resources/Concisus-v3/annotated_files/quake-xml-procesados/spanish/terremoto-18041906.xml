@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-18041906.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>San Francisco<Node id="13"/>, <Node id="15"/>USA<Node id="18"/>&#xd;
+Ocurrido el <Node id="32"/>18 de abril de 1906<Node id="51"/>, este es quizá el terremoto más famoso de todos pues ha sido citado en varias películas y libros. Aunque en aquella época se habló de 478 fallecidos, hoy se sabe que fueron aproximadamente <Node id="241"/>1000<Node id="245"/> las personas que perdieron la vida aquel día.<Node id="291"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="119" Type="Mention" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="Mention" StartNode="15" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="Mention" StartNode="32" EndNode="51">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="241" EndNode="245">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="291">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="City" StartNode="0" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="Country" StartNode="15" EndNode="18">
+</Annotation>
+<Annotation Id="3" Type="DateOfEarthquake" StartNode="32" EndNode="51">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">18/04/1906</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Fatalities" StartNode="241" EndNode="245">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-080907e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 2007 Dellys bombing occurred on <Node id="36"/>September 8, 2007<Node id="53"/>, when at least <Node id="69"/>30<Node id="71"/> people were killed and <Node id="95"/>47<Node id="97"/> injured in a <Node id="111"/>suicide car bomb<Node id="127"/> attack on an <Node id="141"/>Algerian naval barracks<Node id="164"/> in the town of <Node id="180"/>Dellys<Node id="186"/>, 100 km east of Algiers. The blast was carried out by two attackers who killed themselves in the attack. <Node id="292"/>Al Qaeda's north Africa wing<Node id="320"/> (Al-Qaeda Organization in the Islamic Maghreb) said it was behind the suicide attack.<Node id="406"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="176" Type="Mention" StartNode="180" EndNode="186">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="177" Type="Mention" StartNode="292" EndNode="320">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="171" Type="Mention" StartNode="36" EndNode="53">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="172" Type="Mention" StartNode="69" EndNode="71">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="173" Type="Mention" StartNode="95" EndNode="97">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="174" Type="Mention" StartNode="111" EndNode="127">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="175" Type="Mention" StartNode="141" EndNode="164">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="406">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="2" Type="DateOfAttack" StartNode="36" EndNode="53">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">08/09/07</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Fatalities" StartNode="69" EndNode="71">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Injured" StartNode="95" EndNode="97">
+</Annotation>
+<Annotation Id="6" Type="TypeOfAttack" StartNode="111" EndNode="127">
+</Annotation>
+<Annotation Id="7" Type="NameOfVictim" StartNode="141" EndNode="164">
+</Annotation>
+<Annotation Id="8" Type="Place" StartNode="180" EndNode="186">
+</Annotation>
+<Annotation Id="9" Type="Perpetrator" StartNode="292" EndNode="320">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

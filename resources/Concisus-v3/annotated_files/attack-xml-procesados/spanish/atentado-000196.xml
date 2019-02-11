@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-000196.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Durante <Node id="8"/>enero de 1996<Node id="21"/> un grupo de los <Node id="38"/>Tigres de la Liberación Tamil Eelam<Node id="73"/> (LTTE), de ascendencia hindu, que vienen luchando por la independencia del norte de la isla desde hace dos decadas, hacen <Node id="196"/>explotar un camion-bomba<Node id="220"/> contra el <Node id="231"/>Banco Central de Sri Lanka<Node id="257"/>, en pleno centro de su capital <Node id="289"/>Colombo<Node id="296"/>, provocando la muerte de <Node id="322"/>90<Node id="324"/> civiles y heridas a <Node id="345"/>centenares<Node id="355"/> de personas. <Node id="369"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="160" Type="Mention" StartNode="8" EndNode="21">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="161" Type="Mention" StartNode="322" EndNode="324">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TotalVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="162" Type="Mention" StartNode="289" EndNode="296">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="163" Type="Mention" StartNode="231" EndNode="257">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="164" Type="Mention" StartNode="196" EndNode="220">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="165" Type="Mention" StartNode="38" EndNode="73">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="159" Type="Mention" StartNode="345" EndNode="355">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="369">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="17" Type="Injured" StartNode="345" EndNode="355">
+</Annotation>
+<Annotation Id="1" Type="DateOfAttack" StartNode="8" EndNode="21">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">01/1996</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="TotalVictims" StartNode="322" EndNode="324">
+</Annotation>
+<Annotation Id="19" Type="City" StartNode="289" EndNode="296">
+</Annotation>
+<Annotation Id="20" Type="NameOfVictim" StartNode="231" EndNode="257">
+</Annotation>
+<Annotation Id="21" Type="TypeOfAttack" StartNode="196" EndNode="220">
+</Annotation>
+<Annotation Id="22" Type="Perpetrator" StartNode="38" EndNode="73">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

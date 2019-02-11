@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-180210e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The <Node id="4"/>2010<Node id="8"/> <Node id="9"/>Austin<Node id="15"/> suicide attack occurred on <Node id="43"/>18 February 2010<Node id="59"/>, when <Node id="66"/>Andrew Joseph Stack III<Node id="89"/>, flying his Piper Dakota, <Node id="116"/>crashed<Node id="123"/> into <Node id="129"/>Building I of the Echelon office complex<Node id="169"/> in <Node id="173"/>Austin<Node id="179"/>, Texas, United States, killing <Node id="211"/>himself<Node id="218"/> and an Internal Revenue Service <Node id="251"/>manager<Node id="258"/> Vernon Hunter. <Node id="274"/>Thirteen<Node id="282"/> others were injured, two seriously. <Node id="319"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="128" Type="Mention" StartNode="173" EndNode="179">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="Mention" StartNode="211" EndNode="218">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="Mention" StartNode="251" EndNode="258">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Mention" StartNode="274" EndNode="282">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="9" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Mention" StartNode="43" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="Mention" StartNode="4" EndNode="8">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="Mention" StartNode="66" EndNode="89">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="116" EndNode="123">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Mention" StartNode="129" EndNode="169">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="319">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Place" StartNode="9" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="DateOfAttack" StartNode="43" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">18/02/10</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="DateOfAttack" StartNode="4" EndNode="8">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Perpetrator" StartNode="66" EndNode="89">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAttack" StartNode="116" EndNode="123">
+</Annotation>
+<Annotation Id="6" Type="NameOfVictim" StartNode="129" EndNode="169">
+</Annotation>
+<Annotation Id="7" Type="Place" StartNode="173" EndNode="179">
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="211" EndNode="218">
+</Annotation>
+<Annotation Id="9" Type="Fatalities" StartNode="251" EndNode="258">
+</Annotation>
+<Annotation Id="10" Type="Injured" StartNode="274" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

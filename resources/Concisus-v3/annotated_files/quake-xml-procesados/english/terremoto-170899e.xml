@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-170899e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 1999 Izmit earthquake, also known as the Kocaeli earthquake or the Gölcük earthquake, was a <Node id="96"/>7.6 <Node id="100"/>magnitude earthquake that struck northwestern <Node id="146"/>Turkey<Node id="152"/> on <Node id="156"/>August 17, 1999<Node id="171"/>, at about <Node id="182"/>3:02<Node id="186"/>am local time. The event lasted for <Node id="222"/>37<Node id="224"/> seconds, killing around <Node id="249"/>17,000<Node id="255"/> people and leaving approximatel <Node id="288"/>500000<Node id="294"/> people homeless. The nearby city of <Node id="331"/>Izmit<Node id="336"/> was very badly damaged.<Node id="360"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="144" Type="Mention" StartNode="96" EndNode="100">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="145" Type="Mention" StartNode="146" EndNode="152">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="146" Type="Mention" StartNode="156" EndNode="171">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="147" Type="Mention" StartNode="182" EndNode="186">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="148" Type="Mention" StartNode="222" EndNode="224">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Duration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="149" Type="Mention" StartNode="249" EndNode="255">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="150" Type="Mention" StartNode="288" EndNode="294">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+<Annotation Id="151" Type="Mention" StartNode="331" EndNode="336">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="360">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Magnitude" StartNode="96" EndNode="100">
+</Annotation>
+<Annotation Id="2" Type="Country" StartNode="146" EndNode="152">
+</Annotation>
+<Annotation Id="3" Type="Country" StartNode="156" EndNode="171">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">17/08/1999</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="TimeOfEarthquake" StartNode="182" EndNode="186">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Duration" StartNode="222" EndNode="224">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">seconds</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="249" EndNode="255">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Homeless" StartNode="288" EndNode="294">
+</Annotation>
+<Annotation Id="9" Type="City" StartNode="331" EndNode="336">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

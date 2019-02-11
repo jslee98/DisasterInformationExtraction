@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-180798e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 1998 <Node id="9"/>Papua<Node id="14"/> New Guinea<Node id="25"/> earthquake was a magnitude<Node id="52"/> 7.0<Node id="56"/> earthquake that took place in the early evening of <Node id="108"/>Friday, 17 July 1998<Node id="128"/>. The earthquake struck the <Node id="156"/>north coast region of Papua<Node id="183"/> New Guinea, 25 km (16 mi) from the coast near Aitape, and caused a large undersea landslide, which in turn caused a tsunami that hit the coast, killing more than <Node id="346"/>2200<Node id="350"/> people.<Node id="358"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="149" Type="Mention" StartNode="9" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Province</Value>
+</Feature>
+</Annotation>
+<Annotation Id="150" Type="Mention" StartNode="14" EndNode="25">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="151" Type="Mention" StartNode="52" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="152" Type="Mention" StartNode="108" EndNode="128">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="153" Type="Mention" StartNode="156" EndNode="183">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="154" Type="Mention" StartNode="346" EndNode="350">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="358">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Province" StartNode="9" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="Country" StartNode="14" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="Magnitude" StartNode="52" EndNode="56">
+</Annotation>
+<Annotation Id="4" Type="DateOfEarthquake" StartNode="108" EndNode="128">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">17/07/1998</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Region" StartNode="156" EndNode="183">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="346" EndNode="350">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

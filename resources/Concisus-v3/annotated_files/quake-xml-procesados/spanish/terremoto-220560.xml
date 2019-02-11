@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-220560.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Valdivia<Node id="8"/>, <Node id="10"/>Chile<Node id="15"/>&#xd;
+El terremoto más fuerte del mundo se registró el <Node id="66"/>22 de mayo de 1960<Node id="84"/> en Chile y tuvo una magnitud de<Node id="116"/> 9,5<Node id="120"/>. Según el testimonio de la abuelita de Barbarela, el cielo se oscureció repentinamente y el terremoto fue de larga duración.<Node id="245"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="105" Type="Mention" StartNode="0" EndNode="8">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="Mention" StartNode="116" EndNode="120">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="Mention" StartNode="10" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="Mention" StartNode="66" EndNode="84">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="City" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="3" Type="Magnitude" StartNode="116" EndNode="120">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Country" StartNode="10" EndNode="15">
+</Annotation>
+<Annotation Id="5" Type="DateOfEarthquake" StartNode="66" EndNode="84">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">22/05/1960</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

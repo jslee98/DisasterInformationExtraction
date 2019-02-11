@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-160805.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2005<Node id="4"/>&#xd;
+<Node id="6"/>16 de agosto<Node id="18"/>: el <Node id="23"/>vuelo 708<Node id="32"/> de <Node id="36"/>West Caribbean<Node id="50"/> era un vuelo que se accidentó en la <Node id="87"/>serranía del Perijá<Node id="106"/>, en el <Node id="114"/>Estado de Zulia en Venezuela<Node id="142"/> en plena madrugada, dejando como víctimas mortales a sus <Node id="200"/>152<Node id="203"/> pasajeros y <Node id="216"/>8<Node id="217"/> miembros de la tripulación. El avión, un <Node id="259"/>McDonnell Douglas MD-82<Node id="282"/> de matrícula HK-4374X, cubría la ruta <Node id="321"/>Ciudad de Panamá-Martinica<Node id="347"/>, realizando un vuelo chárter, cuando notificó <Node id="394"/>falla en sus motores<Node id="414"/>. Tras la falla del primer motor el avión cambió su rumbo a <Node id="474"/>Maracaibo<Node id="483"/> para un aterrizaje de emergencia. La mayor parte de los pasajeros eran ciudadanos franceses de Martinica, quienes regresaban de unas vacaciones de Panamá. La tripulación era colombiana.<Node id="669"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="272" Type="Mention" StartNode="474" EndNode="483">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="261" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="262" Type="Mention" StartNode="6" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="263" Type="Mention" StartNode="23" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="264" Type="Mention" StartNode="36" EndNode="50">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="265" Type="Mention" StartNode="87" EndNode="106">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="266" Type="Mention" StartNode="114" EndNode="142">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="267" Type="Mention" StartNode="200" EndNode="203">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Passenger</Value>
+</Feature>
+</Annotation>
+<Annotation Id="268" Type="Mention" StartNode="216" EndNode="217">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Tripulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="269" Type="Mention" StartNode="259" EndNode="282">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAircraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="270" Type="Mention" StartNode="321" EndNode="347">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="271" Type="Mention" StartNode="394" EndNode="414">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Cause</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="669">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="DateOfAccident" StartNode="6" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">16/08/2005</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="FlightNumber" StartNode="23" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Airline" StartNode="36" EndNode="50">
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="87" EndNode="106">
+</Annotation>
+<Annotation Id="6" Type="Place" StartNode="114" EndNode="142">
+</Annotation>
+<Annotation Id="7" Type="Passenger" StartNode="200" EndNode="203">
+</Annotation>
+<Annotation Id="8" Type="Tripulation" StartNode="216" EndNode="217">
+</Annotation>
+<Annotation Id="9" Type="TypeOfAircraft" StartNode="259" EndNode="282">
+</Annotation>
+<Annotation Id="10" Type="Origin" StartNode="321" EndNode="347">
+</Annotation>
+<Annotation Id="11" Type="Cause" StartNode="394" EndNode="414">
+</Annotation>
+<Annotation Id="12" Type="Destination" StartNode="474" EndNode="483">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

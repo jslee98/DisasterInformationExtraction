@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-070705e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2005&#xd;<Node id="5"/>
+United Kingdom, <Node id="22"/>July 7<Node id="28"/>: <Node id="30"/>London<Node id="36"/> <Node id="37"/>bombings<Node id="45"/> ? <Node id="48"/>Suicide bombers<Node id="63"/> attack one <Node id="75"/>double-decker bus<Node id="92"/> and three London <Node id="110"/>Underground trains<Node id="128"/>, killing <Node id="138"/>52<Node id="140"/> people and injuring over <Node id="166"/>700<Node id="169"/>.<Node id="170"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="69" Type="Mention" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="70" Type="Mention" StartNode="22" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="71" Type="Mention" StartNode="30" EndNode="36">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="72" Type="Mention" StartNode="48" EndNode="63">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="73" Type="Mention" StartNode="37" EndNode="45">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="74" Type="Mention" StartNode="75" EndNode="92">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="75" Type="Mention" StartNode="110" EndNode="128">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="76" Type="Mention" StartNode="138" EndNode="140">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="77" Type="Mention" StartNode="166" EndNode="169">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="170">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="DateOfAttack" StartNode="22" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">07/07/05</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Place" StartNode="30" EndNode="36">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="TypeOfAttack" StartNode="48" EndNode="63">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAttack" StartNode="37" EndNode="45">
+</Annotation>
+<Annotation Id="6" Type="NameOfVictim" StartNode="75" EndNode="92">
+</Annotation>
+<Annotation Id="7" Type="NameOfVictim" StartNode="110" EndNode="128">
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="138" EndNode="140">
+</Annotation>
+<Annotation Id="9" Type="Injured" StartNode="166" EndNode="169">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-170706e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>On <Node id="3"/>17 July<Node id="10"/> at <Node id="14"/>03:19:25<Node id="22"/> p.m. local time an earthquake measuring <Node id="63"/>7.7<Node id="66"/> on the Richter scale struck offshore immediately south of West <Node id="130"/>Java<Node id="134"/> at a depth of <Node id="149"/>10<Node id="151"/> km. The areas affected by the earthquake and resultant tsunami included the districts of <Node id="241"/>Taskimalaya<Node id="252"/>, <Node id="254"/>Ciamis<Node id="260"/>, <Node id="262"/>Sukabumi<Node id="270"/> and <Node id="275"/>Garut<Node id="280"/> in<Node id="283"/> West Java<Node id="293"/> province, <Node id="304"/>Cilacap<Node id="311"/>, <Node id="313"/>Kebumen<Node id="320"/> and <Node id="325"/>Banyumas<Node id="333"/> in <Node id="337"/>Central Java<Node id="349"/> and the Gunung Kidul and Bantul districts in the province of <Node id="411"/>Yogyakarta<Node id="421"/>. No. Deaths <Node id="434"/>500<Node id="437"/> <Node id="438"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="192" Type="Mention" StartNode="63" EndNode="66">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="193" Type="Mention" StartNode="130" EndNode="134">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="194" Type="Mention" StartNode="149" EndNode="151">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Depth</Value>
+</Feature>
+</Annotation>
+<Annotation Id="195" Type="Mention" StartNode="241" EndNode="252">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="196" Type="Mention" StartNode="254" EndNode="260">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="197" Type="Mention" StartNode="262" EndNode="270">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="198" Type="Mention" StartNode="275" EndNode="280">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="199" Type="Mention" StartNode="283" EndNode="293">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Province</Value>
+</Feature>
+</Annotation>
+<Annotation Id="200" Type="Mention" StartNode="304" EndNode="311">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="201" Type="Mention" StartNode="313" EndNode="320">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="202" Type="Mention" StartNode="325" EndNode="333">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="203" Type="Mention" StartNode="337" EndNode="349">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="204" Type="Mention" StartNode="434" EndNode="437">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="205" Type="Mention" StartNode="411" EndNode="421">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Province</Value>
+</Feature>
+</Annotation>
+<Annotation Id="190" Type="Mention" StartNode="3" EndNode="10">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="Mention" StartNode="14" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="438">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="3" EndNode="10">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">17/07/2006</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="TimeOfEarthquake" StartNode="14" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Magnitude" StartNode="63" EndNode="66">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Country" StartNode="130" EndNode="134">
+</Annotation>
+<Annotation Id="5" Type="Depth" StartNode="149" EndNode="151">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">km</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="OtherPlacesAffected" StartNode="241" EndNode="252">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="OtherPlacesAffected" StartNode="254" EndNode="260">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="OtherPlacesAffected" StartNode="262" EndNode="270">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="OtherPlacesAffected" StartNode="275" EndNode="280">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">4</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Province" StartNode="283" EndNode="293">
+</Annotation>
+<Annotation Id="12" Type="OtherPlacesAffected" StartNode="304" EndNode="311">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">5</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="OtherPlacesAffected" StartNode="313" EndNode="320">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">6</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="OtherPlacesAffected" StartNode="325" EndNode="333">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">7</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Region" StartNode="337" EndNode="349">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="16" Type="Fatalities" StartNode="434" EndNode="437">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="Province" StartNode="411" EndNode="421">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

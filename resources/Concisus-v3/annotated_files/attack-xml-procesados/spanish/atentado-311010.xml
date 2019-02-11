@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-311010.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El ataque a la <Node id="15"/>iglesia cristiana<Node id="32"/> de <Node id="36"/>Bagdad<Node id="42"/> en <Node id="46"/>2010<Node id="50"/> fue un ataque terrorista dirigido contra los católicos caldeos en Bagdad, Irak, el <Node id="134"/>31 de octubre de 2010<Node id="155"/>, que dejó al menos <Node id="175"/>58<Node id="177"/> personas muertas, incluyendo 2 sacerdotes, y otros <Node id="229"/>75<Node id="231"/> heridos después de que más de 100 feligreses hubieran sido tomados como rehenes. El grupo terrorista <Node id="333"/>Estado Islámico de Irak<Node id="356"/>, vinculado a al Qaeda, se atribuyó la responsabilidad del ataque.<Node id="422"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="164" Type="Mention" StartNode="15" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="165" Type="Mention" StartNode="36" EndNode="42">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="166" Type="Mention" StartNode="46" EndNode="50">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="167" Type="Mention" StartNode="134" EndNode="155">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="168" Type="Mention" StartNode="175" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="169" Type="Mention" StartNode="229" EndNode="231">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="170" Type="Mention" StartNode="333" EndNode="356">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="422">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="NameOfVictim" StartNode="15" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="Place" StartNode="36" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="DateOfAttack" StartNode="46" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="DateOfAttack" StartNode="134" EndNode="155">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">31/10/10</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="175" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Injured" StartNode="229" EndNode="231">
+</Annotation>
+<Annotation Id="7" Type="NameOfVictim" StartNode="333" EndNode="356">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

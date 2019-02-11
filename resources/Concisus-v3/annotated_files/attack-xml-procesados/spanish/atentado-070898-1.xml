@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-070898-1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los atentados terroristas a las <Node id="32"/>embajadas de los Estados Unidos<Node id="63"/> en África tuvieron lugar el <Node id="92"/>7 de agosto de 1998<Node id="111"/> en <Node id="115"/>Nairobi<Node id="122"/> (Kenia), y en <Node id="137"/>Dar es Salaam<Node id="150"/> (Tanzania), siendo el objetivo principal las embajadas del país norteamericano. En el ataque contra la embajada en Nairobi mataron al menos a <Node id="293"/>213<Node id="296"/> personas, entre ellas 12 estadounidenses y resultaron heridas entre 4.000 a <Node id="373"/>5.500 <Node id="379"/>personas. <Node id="389"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="160" Type="Mention" StartNode="293" EndNode="296">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="161" Type="Mention" StartNode="373" EndNode="379">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="156" Type="Mention" StartNode="92" EndNode="111">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="157" Type="Mention" StartNode="115" EndNode="122">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="158" Type="Mention" StartNode="137" EndNode="150">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="159" Type="Mention" StartNode="32" EndNode="63">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="389">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="92" EndNode="111">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">07/08/98</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="115" EndNode="122">
+</Annotation>
+<Annotation Id="6" Type="Place" StartNode="137" EndNode="150">
+</Annotation>
+<Annotation Id="7" Type="NameOfVictim" StartNode="32" EndNode="63">
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="293" EndNode="296">
+</Annotation>
+<Annotation Id="9" Type="Injured" StartNode="373" EndNode="379">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

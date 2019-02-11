@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/ferroviarios/tren-030698.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>3 junio 1998&#xd;<Node id="13"/>
+Un total de <Node id="26"/>98<Node id="28"/> muertos y <Node id="39"/>120<Node id="42"/> heridos en <Node id="54"/>Eschede<Node id="61"/> (norte de Alemania) tras <Node id="87"/>chocar contra el pilar de un puente<Node id="122"/> el <Node id="126"/>tren de alta velocidad alemán (ICE)<Node id="161"/> <Node id="162"/>Munich<Node id="168"/>-<Node id="169"/>Hamburgo<Node id="177"/>. Este accidente es el más grave ocurrido en Alemania desde 1945.<Node id="242"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="112" Type="Mention" StartNode="87" EndNode="122">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="Mention" StartNode="126" EndNode="161">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="Mention" StartNode="162" EndNode="168">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="115" Type="Mention" StartNode="169" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="Mention" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="Mention" StartNode="26" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="Mention" StartNode="39" EndNode="42">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="Mention" StartNode="54" EndNode="61">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="242">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAccident" StartNode="0" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="NumberOfVictims" StartNode="26" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="Survivors" StartNode="39" EndNode="42">
+</Annotation>
+<Annotation Id="4" Type="Place" StartNode="54" EndNode="61">
+</Annotation>
+<Annotation Id="5" Type="TypeOfAccident" StartNode="87" EndNode="122">
+</Annotation>
+<Annotation Id="6" Type="TypeOfTrain" StartNode="126" EndNode="161">
+</Annotation>
+<Annotation Id="8" Type="Origin" StartNode="162" EndNode="168">
+</Annotation>
+<Annotation Id="9" Type="Destination" StartNode="169" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

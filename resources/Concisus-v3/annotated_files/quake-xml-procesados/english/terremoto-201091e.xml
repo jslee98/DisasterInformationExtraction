@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-201091e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 1991 Uttarkashi earthquake occurred on <Node id="43"/>20 October 1991<Node id="58"/> in the <Node id="66"/>Uttarkashi<Node id="76"/> region of the Indian state of <Node id="107"/>Uttarakhand<Node id="118"/>. The earthquake, which measured <Node id="151"/>6.8<Node id="154"/> Mw, killed over a <Node id="173"/>1000<Node id="177"/> people and caused extensive damage to property. The quake occurred within the main thrust system of the Himalayas.<Node id="292"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="114" Type="Mention" StartNode="43" EndNode="58">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="115" Type="Mention" StartNode="66" EndNode="76">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="116" Type="Mention" StartNode="107" EndNode="118">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Province</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="Mention" StartNode="151" EndNode="154">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="118" Type="Mention" StartNode="173" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="292">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="43" EndNode="58">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">20/10/1991</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Region" StartNode="66" EndNode="76">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Province" StartNode="107" EndNode="118">
+</Annotation>
+<Annotation Id="4" Type="Magnitude" StartNode="151" EndNode="154">
+</Annotation>
+<Annotation Id="7" Type="Fatalities" StartNode="173" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-010609.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009<Node id="4"/>&#xd;
+<Node id="6"/>1 de junio<Node id="16"/>: el <Node id="21"/>vuelo 447<Node id="30"/> de <Node id="34"/>Air France<Node id="44"/> <Node id="45"/>desaparece<Node id="55"/> por causas <Node id="67"/>desconocidas<Node id="79"/> en el <Node id="86"/>Océano Atlántico<Node id="102"/>. Esta fatalidad sería la mayor en la historia de Air France, superando la del Vuelo 4590 de Air France del conocido avión Concorde del 25 de julio de 2000. Fallecieron los <Node id="275"/>228<Node id="278"/> ocupantes del avión, entre tripulantes y pasajeros.<Node id="330"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="144" Type="Mention" StartNode="86" EndNode="102">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="145" Type="Mention" StartNode="275" EndNode="278">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="146" Type="Mention" StartNode="45" EndNode="55">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="147" Type="Mention" StartNode="67" EndNode="79">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Cause</Value>
+</Feature>
+</Annotation>
+<Annotation Id="140" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="141" Type="Mention" StartNode="6" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="142" Type="Mention" StartNode="21" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="143" Type="Mention" StartNode="34" EndNode="44">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="330">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="3" Type="DateOfAccident" StartNode="6" EndNode="16">
+</Annotation>
+<Annotation Id="4" Type="FlightNumber" StartNode="21" EndNode="30">
+</Annotation>
+<Annotation Id="5" Type="Airline" StartNode="34" EndNode="44">
+</Annotation>
+<Annotation Id="7" Type="Place" StartNode="86" EndNode="102">
+</Annotation>
+<Annotation Id="8" Type="NumberOfVictims" StartNode="275" EndNode="278">
+</Annotation>
+<Annotation Id="11" Type="TypeOfAccident" StartNode="45" EndNode="55">
+</Annotation>
+<Annotation Id="12" Type="Cause" StartNode="67" EndNode="79">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/ferroviarios/tren-061102e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>November 6, 2002<Node id="16"/> ? <Node id="19"/>Nancy, France<Node id="32"/>: A <Node id="36"/>fire breaks<Node id="47"/> out in the front two carriages of an <Node id="85"/>overnight sleeper train <Node id="109"/>heading from<Node id="121"/> Paris<Node id="127"/> to<Node id="130"/> Vienna<Node id="137"/>. <Node id="139"/>12<Node id="141"/> passengers die of smoke inhalation, <Node id="178"/>9<Node id="179"/> are injured.<Node id="192"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="86" Type="Mention" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="87" Type="Mention" StartNode="19" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="88" Type="Mention" StartNode="36" EndNode="47">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="89" Type="Mention" StartNode="85" EndNode="109">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="90" Type="Mention" StartNode="121" EndNode="127">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="91" Type="Mention" StartNode="130" EndNode="137">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="92" Type="Mention" StartNode="139" EndNode="141">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="93" Type="Mention" StartNode="178" EndNode="179">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="192">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAccident" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">06/11/2002</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Place" StartNode="19" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TypeOfAccident" StartNode="36" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="TypeOfTrain" StartNode="85" EndNode="109">
+</Annotation>
+<Annotation Id="5" Type="Origin" StartNode="121" EndNode="127">
+</Annotation>
+<Annotation Id="6" Type="Destination" StartNode="130" EndNode="137">
+</Annotation>
+<Annotation Id="7" Type="NumberOfVictims" StartNode="139" EndNode="141">
+</Annotation>
+<Annotation Id="8" Type="Survivors" StartNode="178" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

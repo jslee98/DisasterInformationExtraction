@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-081005-01.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>8 octubre 2005&#xd;<Node id="15"/>
+<Node id="16"/>Cachemira<Node id="25"/>, fronteriza entre <Node id="44"/>Pakistán<Node id="52"/> y la <Node id="58"/>India<Node id="63"/>: cerca de <Node id="74"/>86.000<Node id="80"/> muertos y <Node id="91"/>40.000<Node id="97"/> heridos en un movimiento telúrico de magnitud <Node id="144"/>7,6<Node id="147"/> Richter con epicentro en la zona paquistaní. En el lado indio hubo un millar de muertos.<Node id="236"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="104" Type="Mention" StartNode="0" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="Mention" StartNode="16" EndNode="25">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="Mention" StartNode="44" EndNode="52">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="Mention" StartNode="74" EndNode="80">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="Mention" StartNode="91" EndNode="97">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="Mention" StartNode="144" EndNode="147">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="Mention" StartNode="58" EndNode="63">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="236">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="2" Type="DateOfEarthquake" StartNode="0" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">08/10/2005</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Region" StartNode="16" EndNode="25">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Country" StartNode="44" EndNode="52">
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="74" EndNode="80">
+</Annotation>
+<Annotation Id="6" Type="Injured" StartNode="91" EndNode="97">
+</Annotation>
+<Annotation Id="7" Type="Magnitude" StartNode="144" EndNode="147">
+</Annotation>
+<Annotation Id="8" Type="OtherPlacesAffected" StartNode="58" EndNode="63">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

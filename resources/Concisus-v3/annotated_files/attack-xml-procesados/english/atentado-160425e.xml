@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-160425e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The <Node id="4"/>St Nedelya Church<Node id="21"/> assault was an attack upon <Node id="49"/>St. Nedelya Church<Node id="67"/> in Bulgaria. It was carried out on <Node id="103"/>16 April 1925<Node id="116"/>, when a group of the <Node id="138"/>Bulgarian Communist Party<Node id="163"/> (BCP) <Node id="170"/>blew up the roof<Node id="186"/> of the <Node id="194"/>St Nedelya Church<Node id="211"/> in the capital <Node id="227"/>Sofia<Node id="232"/>. This occurred during the funeral service of General Konstantin Georgiev, who had been killed in a previous Communist assault on 14 April. <Node id="372"/>150<Node id="375"/> people, mainly from the country's political and military elite, were killed in the attack and around <Node id="477"/>500<Node id="480"/> were injured.<Node id="494"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="208" Type="Mention" StartNode="49" EndNode="67">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="209" Type="Mention" StartNode="194" EndNode="211">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="210" Type="Mention" StartNode="227" EndNode="232">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="211" Type="Mention" StartNode="138" EndNode="163">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="212" Type="Mention" StartNode="477" EndNode="480">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="213" Type="Mention" StartNode="372" EndNode="375">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="214" Type="Mention" StartNode="103" EndNode="116">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="215" Type="Mention" StartNode="170" EndNode="186">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="207" Type="Mention" StartNode="4" EndNode="21">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="494">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="NameOfVictim" StartNode="4" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="NameOfVictim" StartNode="49" EndNode="67">
+</Annotation>
+<Annotation Id="4" Type="NameOfVictim" StartNode="194" EndNode="211">
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="227" EndNode="232">
+</Annotation>
+<Annotation Id="6" Type="Perpetrator" StartNode="138" EndNode="163">
+</Annotation>
+<Annotation Id="7" Type="Injured" StartNode="477" EndNode="480">
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="372" EndNode="375">
+</Annotation>
+<Annotation Id="9" Type="DateOfAttack" StartNode="103" EndNode="116">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">16/04/25</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="TypeOfAttack" StartNode="170" EndNode="186">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

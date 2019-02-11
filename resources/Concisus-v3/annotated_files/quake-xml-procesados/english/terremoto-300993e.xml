@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-300993e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>September 29 1993<Node id="17"/>, <Node id="19"/>India<Node id="24"/>, M<Node id="27"/>6.2&#xd;<Node id="31"/>
+<Node id="32"/>9748<Node id="36"/> people killed, about <Node id="58"/>30,000<Node id="64"/> injured and extreme devastation in the <Node id="104"/>Latur-Osmanabad<Node id="119"/> area. Nearly all buildings were destroyed in the village of <Node id="180"/>Khillari<Node id="188"/>. Felt in large parts of <Node id="213"/>central and southern India<Node id="239"/>, including <Node id="251"/>Bangalore<Node id="260"/>, <Node id="262"/>Bombay<Node id="268"/>, <Node id="270"/>Hyderabad<Node id="279"/> and <Node id="284"/>Madras<Node id="290"/>. &#xd;
+<Node id="294"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="128" Type="Mention" StartNode="32" EndNode="36">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="Mention" StartNode="58" EndNode="64">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="Mention" StartNode="104" EndNode="119">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Mention" StartNode="180" EndNode="188">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="Mention" StartNode="213" EndNode="239">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="133" Type="Mention" StartNode="251" EndNode="260">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="Mention" StartNode="262" EndNode="268">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="Mention" StartNode="270" EndNode="279">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="Mention" StartNode="284" EndNode="290">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="Mention" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="19" EndNode="24">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Mention" StartNode="27" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="294">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">29/09/1993</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Country" StartNode="19" EndNode="24">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Magnitude" StartNode="27" EndNode="31">
+</Annotation>
+<Annotation Id="4" Type="Fatalities" StartNode="32" EndNode="36">
+</Annotation>
+<Annotation Id="5" Type="Survivors" StartNode="58" EndNode="64">
+</Annotation>
+<Annotation Id="6" Type="Region" StartNode="104" EndNode="119">
+</Annotation>
+<Annotation Id="7" Type="City" StartNode="180" EndNode="188">
+</Annotation>
+<Annotation Id="8" Type="OtherPlacesAffected" StartNode="213" EndNode="239">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="OtherPlacesAffected" StartNode="251" EndNode="260">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="OtherPlacesAffected" StartNode="262" EndNode="268">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="OtherPlacesAffected" StartNode="270" EndNode="279">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">4</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="OtherPlacesAffected" StartNode="284" EndNode="290">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">5</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

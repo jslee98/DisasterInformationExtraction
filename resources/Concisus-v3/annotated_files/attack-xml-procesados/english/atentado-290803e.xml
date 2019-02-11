@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-290803e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The <Node id="4"/>Imam Ali Mosque<Node id="19"/> <Node id="20"/>bombing<Node id="27"/> was the detonation of <Node id="50"/>two car bombs<Node id="63"/> outside of the <Node id="79"/>Shia Imam Ali Mosque<Node id="99"/> in <Node id="103"/>Najaf<Node id="108"/> on <Node id="112"/>August 29, 2003<Node id="127"/>. The attack killed <Node id="147"/>83<Node id="149"/> people crowded around the mosque for Friday prayers, including Ayatollah Mohammed Baqir al-Hakim, spiritual leader of the Supreme Council of the Islamic Revolution in Iraq.<Node id="322"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="128" Type="Mention" StartNode="50" EndNode="63">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="Mention" StartNode="79" EndNode="99">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="Mention" StartNode="103" EndNode="108">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Mention" StartNode="112" EndNode="127">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="Mention" StartNode="147" EndNode="149">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="4" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Mention" StartNode="20" EndNode="27">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="322">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="NameOfVictim" StartNode="4" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="TypeOfAttack" StartNode="20" EndNode="27">
+</Annotation>
+<Annotation Id="3" Type="TypeOfAttack" StartNode="50" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="NameOfVictim" StartNode="79" EndNode="99">
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="103" EndNode="108">
+</Annotation>
+<Annotation Id="6" Type="DateOfAttack" StartNode="112" EndNode="127">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">29/08/03</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Fatalities" StartNode="147" EndNode="149">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

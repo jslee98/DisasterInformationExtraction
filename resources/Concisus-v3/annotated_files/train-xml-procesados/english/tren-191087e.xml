@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/ferroviarios/tren-191087e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>October 19, 1987<Node id="16"/> ? Bintaro train crash: A <Node id="42"/>commuter train<Node id="56"/> from <Node id="62"/>Rangkasbitung<Node id="75"/> with <Node id="81"/>600<Node id="84"/> passengers <Node id="96"/>collides head-on<Node id="112"/> with another <Node id="126"/>commuter train<Node id="140"/> with <Node id="146"/>300<Node id="149"/> passengers bound for <Node id="171"/>Merak<Node id="176"/>, at<Node id="180"/> Bintaro Jaya, south of Jakarta, Indonesia<Node id="222"/>, killing at least <Node id="241"/>156<Node id="244"/> people, injuring at least <Node id="271"/>300<Node id="274"/>. Indonesia's worst rail accident in history.<Node id="319"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="128" Type="Mention" StartNode="62" EndNode="75">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="Mention" StartNode="81" EndNode="84">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Passenger</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="Mention" StartNode="96" EndNode="112">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Mention" StartNode="126" EndNode="140">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="Mention" StartNode="146" EndNode="149">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Passenger</Value>
+</Feature>
+</Annotation>
+<Annotation Id="133" Type="Mention" StartNode="171" EndNode="176">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="Mention" StartNode="241" EndNode="244">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="Mention" StartNode="271" EndNode="274">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="Mention" StartNode="180" EndNode="222">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Mention" StartNode="42" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="319">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAccident" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">18/10/1987</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TypeOfTrain" StartNode="42" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Origin" StartNode="62" EndNode="75">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Passenger" StartNode="81" EndNode="84">
+</Annotation>
+<Annotation Id="6" Type="TypeOfAccident" StartNode="96" EndNode="112">
+</Annotation>
+<Annotation Id="7" Type="TypeOfTrain" StartNode="126" EndNode="140">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Passenger" StartNode="146" EndNode="149">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Destination" StartNode="171" EndNode="176">
+</Annotation>
+<Annotation Id="10" Type="NumberOfVictims" StartNode="241" EndNode="244">
+</Annotation>
+<Annotation Id="11" Type="Survivors" StartNode="271" EndNode="274">
+</Annotation>
+<Annotation Id="12" Type="Place" StartNode="180" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

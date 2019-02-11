@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/ferroviarios/tren-080808.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>8 Ago 2008&#xd;<Node id="11"/>
+<Node id="12"/>Praga<Node id="17"/>, <Node id="19"/>7<Node id="20"/> muertos y cerca de<Node id="39"/> 70<Node id="42"/> heridos es el balance del accidente ferroviario ocurrido hoy en la República Checa, cuando un <Node id="137"/>tren internacional EuroCity<Node id="164"/> <Node id="165"/>colisionó<Node id="174"/> con la estructura de reparación de un puente al noreste del país.<Node id="240"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="98" Type="Mention" StartNode="12" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="99" Type="Mention" StartNode="0" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="100" Type="Mention" StartNode="19" EndNode="20">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="101" Type="Mention" StartNode="39" EndNode="42">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+<Annotation Id="102" Type="Mention" StartNode="137" EndNode="164">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="103" Type="Mention" StartNode="165" EndNode="174">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="240">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="3" Type="Place" StartNode="12" EndNode="17">
+</Annotation>
+<Annotation Id="4" Type="DateOfAccident" StartNode="0" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">08/08/2008</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="NumberOfVictims" StartNode="19" EndNode="20">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Survivors" StartNode="39" EndNode="42">
+</Annotation>
+<Annotation Id="7" Type="TypeOfTrain" StartNode="137" EndNode="164">
+</Annotation>
+<Annotation Id="8" Type="TypeOfAccident" StartNode="165" EndNode="174">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

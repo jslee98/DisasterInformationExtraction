@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-280710e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2010<Node id="4"/>&#xd;
+<Node id="6"/>July 28<Node id="13"/> ? <Node id="16"/>Airblue<Node id="23"/> <Node id="24"/>Flight 202<Node id="34"/>, an <Node id="39"/>Airbus A321<Node id="50"/>, <Node id="52"/>crashes<Node id="59"/> into a hill in the<Node id="78"/> Margalla Hills north-east of Islamabad<Node id="117"/> apparently due to <Node id="136"/>bad weather<Node id="147"/> resulting in <Node id="161"/>146<Node id="164"/> passengers and <Node id="180"/>6<Node id="181"/> crew members perished. It is the first fatal accident involving an Airbus A321 and Pakistan's worst air disaster.<Node id="295"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="128" Type="Mention" StartNode="6" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="Mention" StartNode="16" EndNode="23">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="Mention" StartNode="24" EndNode="34">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Mention" StartNode="39" EndNode="50">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAircraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="Mention" StartNode="52" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="133" Type="Mention" StartNode="78" EndNode="117">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="Mention" StartNode="136" EndNode="147">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Passenger</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="Mention" StartNode="180" EndNode="181">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Tripulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="Mention" StartNode="161" EndNode="164">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="3" Type="DateOfAccident" StartNode="6" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/07/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Airline" StartNode="16" EndNode="23">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="FlightNumber" StartNode="24" EndNode="34">
+</Annotation>
+<Annotation Id="7" Type="TypeOfAircraft" StartNode="39" EndNode="50">
+</Annotation>
+<Annotation Id="8" Type="TypeOfAccident" StartNode="52" EndNode="59">
+</Annotation>
+<Annotation Id="9" Type="Place" StartNode="78" EndNode="117">
+</Annotation>
+<Annotation Id="10" Type="Passenger" StartNode="136" EndNode="147">
+</Annotation>
+<Annotation Id="11" Type="Tripulation" StartNode="180" EndNode="181">
+</Annotation>
+<Annotation Id="12" Type="NumberOfVictims" StartNode="161" EndNode="164">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String">152</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

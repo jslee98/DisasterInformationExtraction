@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-261204-01.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Indonesia&#xd;<Node id="10"/>
+El <Node id="14"/>26 de diciembre de 2004<Node id="37"/> un terremoto en el <Node id="57"/>Océano Índico<Node id="70"/> provocó un tsunami que arrasó la costa de 14 países del sur de Asia y el este de África. En total, <Node id="170"/>227.898<Node id="177"/> personas fallecieron, desaparecieron o fueron dadas por muertas, y alrededor de <Node id="258"/>1,700000<Node id="266"/> de personas perdieron sus hogares<Node id="300"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="122" Type="Mention" StartNode="0" EndNode="10">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Mention" StartNode="14" EndNode="37">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="Mention" StartNode="57" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="Mention" StartNode="170" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TotalVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="258" EndNode="266">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="300">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Country" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="DateOfEarthquake" StartNode="14" EndNode="37">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">26/12/2004</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Region" StartNode="57" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="TotalVictims" StartNode="170" EndNode="177">
+</Annotation>
+<Annotation Id="5" Type="Homeless" StartNode="258" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

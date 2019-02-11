@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-280595e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 1995 Neftegorsk earthquake was a <Node id="37"/>7.1<Node id="40"/>Mw (7.6 MS) earthquake that devastated the town of <Node id="91"/>Neftegorsk<Node id="101"/> in <Node id="105"/>northern Sakhalin Island<Node id="129"/>, <Node id="131"/>Russia<Node id="137"/> on<Node id="140"/> May 27 1995<Node id="152"/> at <Node id="156"/>23:03<Node id="161"/> local time (13:03 UTC).Neftegorsk was nearly completely destroyed by the earthquake, and approximately <Node id="265"/>2,000<Node id="270"/> of the 3,176 residents in the town were killed. <Node id="319"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="134" Type="Mention" StartNode="37" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="Mention" StartNode="91" EndNode="101">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="Mention" StartNode="105" EndNode="129">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="137" Type="Mention" StartNode="131" EndNode="137">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="138" Type="Mention" StartNode="140" EndNode="152">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="139" Type="Mention" StartNode="156" EndNode="161">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="140" Type="Mention" StartNode="265" EndNode="270">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="319">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Magnitude" StartNode="37" EndNode="40">
+</Annotation>
+<Annotation Id="2" Type="City" StartNode="91" EndNode="101">
+</Annotation>
+<Annotation Id="3" Type="Region" StartNode="105" EndNode="129">
+</Annotation>
+<Annotation Id="4" Type="Country" StartNode="131" EndNode="137">
+</Annotation>
+<Annotation Id="5" Type="Country" StartNode="140" EndNode="152">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/05/1995</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="TimeOfEarthquake" StartNode="156" EndNode="161">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Fatalities" StartNode="265" EndNode="270">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

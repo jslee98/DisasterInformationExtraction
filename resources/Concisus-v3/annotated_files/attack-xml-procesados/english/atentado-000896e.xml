@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-000896e-1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The <Node id="4"/>Centennial Olympic Park <Node id="28"/>bombing was a <Node id="42"/>terrorist bombing<Node id="59"/> on <Node id="63"/>July 27, 1996<Node id="76"/> in <Node id="80"/>Atlanta<Node id="87"/>, Georgia, United States during the 1996 Summer Olympics, the first of four committed by <Node id="176"/>Eric Robert Rudolph<Node id="195"/>. <Node id="197"/>Two<Node id="200"/> people died, and <Node id="218"/>111<Node id="221"/> were injured.<Node id="235"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="103" Type="Mention" StartNode="4" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="Mention" StartNode="42" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="Mention" StartNode="63" EndNode="76">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="Mention" StartNode="80" EndNode="87">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="Mention" StartNode="176" EndNode="195">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="Mention" StartNode="197" EndNode="200">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="Mention" StartNode="218" EndNode="221">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="235">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="NameOfVictim" StartNode="4" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="TypeOfAttack" StartNode="42" EndNode="59">
+</Annotation>
+<Annotation Id="4" Type="DateOfAttack" StartNode="63" EndNode="76">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/07/96</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="80" EndNode="87">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Perpetrator" StartNode="176" EndNode="195">
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="197" EndNode="200">
+</Annotation>
+<Annotation Id="14" Type="Injured" StartNode="218" EndNode="221">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

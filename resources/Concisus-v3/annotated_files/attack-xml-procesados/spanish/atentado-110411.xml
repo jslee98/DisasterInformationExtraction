@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-110411.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El atentado del <Node id="16"/>Metro de Minsk<Node id="30"/> es un suceso en el que un explosivo acabó con la vida de <Node id="88"/>11<Node id="90"/> personas en el Metro de Minsk, Bielorrusia. La <Node id="138"/>explosión<Node id="147"/> tuvo lugar en la <Node id="165"/>Estación de Oktiabrskaya<Node id="189"/> cuya parada enlaza con las líneas 1 y 2.<Node id="230"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="101" Type="Mention" StartNode="16" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="102" Type="Mention" StartNode="88" EndNode="90">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="103" Type="Mention" StartNode="138" EndNode="147">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="Mention" StartNode="165" EndNode="189">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="NameOfVictim" StartNode="16" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="Fatalities" StartNode="88" EndNode="90">
+</Annotation>
+<Annotation Id="3" Type="TypeOfAttack" StartNode="138" EndNode="147">
+</Annotation>
+<Annotation Id="4" Type="Place" StartNode="165" EndNode="189">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

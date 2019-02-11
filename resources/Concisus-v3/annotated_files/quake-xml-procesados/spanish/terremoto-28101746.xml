@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-28101746.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Callao<Node id="6"/>, <Node id="8"/>Perú<Node id="12"/>&#xd;
+El <Node id="17"/>28 de octubre de 1746<Node id="38"/> se registró el terremoto más fuerte del a historia del Perú pues fue el que hizo desaparecer practicamente a todo el <Node id="156"/>Callao<Node id="162"/> y gran parte de <Node id="179"/>Lima<Node id="183"/>. En el callao solo sobrevivieron <Node id="217"/>250<Node id="220"/> de sus pobladores. Hubo un total de <Node id="257"/>18,000<Node id="263"/> muertos.<Node id="272"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="121" Type="Mention" StartNode="0" EndNode="6">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Epicentre</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="8" EndNode="12">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Mention" StartNode="17" EndNode="38">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="Mention" StartNode="217" EndNode="220">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="Mention" StartNode="257" EndNode="263">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Mention" StartNode="156" EndNode="162">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Mention" StartNode="179" EndNode="183">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="272">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Epicentre" StartNode="0" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="Country" StartNode="8" EndNode="12">
+</Annotation>
+<Annotation Id="3" Type="Country" StartNode="17" EndNode="38">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/10/1746</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Survivors" StartNode="217" EndNode="220">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="257" EndNode="263">
+</Annotation>
+<Annotation Id="6" Type="City" StartNode="156" EndNode="162">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="City" StartNode="179" EndNode="183">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

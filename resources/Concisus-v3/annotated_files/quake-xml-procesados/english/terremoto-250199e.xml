@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-250199e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 1999 Coffee Axis, <Node id="22"/>Colombia<Node id="30"/> earthquake was an earthquake that heavily affected the city of <Node id="94"/>Armenia<Node id="101"/>, Colombia in the <Node id="119"/>Quindío<Node id="126"/> department, 18 towns and 28 villages in the <Node id="171"/>Colombian Coffee-Growers Axis <Node id="201"/>region departments, and to a lesser degree, the cities of <Node id="259"/>Pereira<Node id="266"/> and <Node id="271"/>Manizales<Node id="280"/>.&#xd;
+The earthquake occurred on <Node id="310"/>Monday, 25 January 1999<Node id="333"/> <Node id="334"/>13:19 <Node id="340"/>(18:19 UTC) and had a magnitude of <Node id="375"/>6.2<Node id="378"/>. The epicenter was 25 miles (40 km) <Node id="415"/>west south west of Ibague<Node id="440"/>, Colombia.<Node id="451"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="192" Type="Mention" StartNode="271" EndNode="280">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="193" Type="Mention" StartNode="310" EndNode="333">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="194" Type="Mention" StartNode="334" EndNode="340">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="195" Type="Mention" StartNode="375" EndNode="378">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="196" Type="Mention" StartNode="415" EndNode="440">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Epicentre</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="Mention" StartNode="22" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="188" Type="Mention" StartNode="94" EndNode="101">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+<Annotation Id="189" Type="Mention" StartNode="119" EndNode="126">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Province</Value>
+</Feature>
+</Annotation>
+<Annotation Id="190" Type="Mention" StartNode="171" EndNode="201">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="Mention" StartNode="259" EndNode="266">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="451">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Country" StartNode="22" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="City" StartNode="94" EndNode="101">
+</Annotation>
+<Annotation Id="3" Type="Province" StartNode="119" EndNode="126">
+</Annotation>
+<Annotation Id="4" Type="Region" StartNode="171" EndNode="201">
+</Annotation>
+<Annotation Id="5" Type="OtherPlacesAffected" StartNode="259" EndNode="266">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="OtherPlacesAffected" StartNode="271" EndNode="280">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="DateOfEarthquake" StartNode="310" EndNode="333">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">25/01/1999</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="TimeOfEarthquake" StartNode="334" EndNode="340">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Magnitude" StartNode="375" EndNode="378">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Epicentre" StartNode="415" EndNode="440">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

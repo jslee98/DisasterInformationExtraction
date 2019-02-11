@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-290310.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los atentados de <Node id="17"/>Moscú<Node id="22"/> del <Node id="27"/>29 de marzo de 2010<Node id="46"/> fueron <Node id="54"/>dos ataques terroristas suicidas con bombas<Node id="97"/> que se produjeron durante la mañana de ese día en el <Node id="151"/>metro de Moscú<Node id="165"/> (Rusia). El primero ocurrió a las 7:56 (hora local) en la estación Lubianka, cerca del Kremlin y también muy cerca del cuartel general del Servicio Federal de Seguridad ruso (FSB). El segundo atentado se perpetró a las 8:39 en la estación de Parque Kultury. Según el FSB, las bombas eran portadas por <Node id="467"/>dos<Node id="470"/> mujeres terroristas suicidas (llamadas <Node id="510"/>shahidkas<Node id="519"/> ó viudas negras), al parecer procedentes del Cáucaso Norte.<Node id="579"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="233" Type="Mention" StartNode="17" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="234" Type="Mention" StartNode="27" EndNode="46">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="235" Type="Mention" StartNode="54" EndNode="97">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="236" Type="Mention" StartNode="151" EndNode="165">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="237" Type="Mention" StartNode="467" EndNode="470">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="238" Type="Mention" StartNode="510" EndNode="519">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="579">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Place" StartNode="17" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="DateOfAttack" StartNode="27" EndNode="46">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">29/03/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TypeOfAttack" StartNode="54" EndNode="97">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="NameOfVictim" StartNode="151" EndNode="165">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="467" EndNode="470">
+</Annotation>
+<Annotation Id="9" Type="Perpetrator" StartNode="510" EndNode="519">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

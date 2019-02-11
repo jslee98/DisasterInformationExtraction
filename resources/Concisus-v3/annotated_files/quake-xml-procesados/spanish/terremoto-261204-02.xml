@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-261204-02.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>26 diciembre 2004&#xd;<Node id="18"/>
+<Node id="19"/>Isla indonesia<Node id="33"/> de <Node id="37"/>Sumatra<Node id="44"/>: un seísmo de magnitud <Node id="68"/>8,9<Node id="71"/> Richter, con epicentro en <Node id="98"/>Aceh<Node id="102"/>, causó más de <Node id="117"/>280.000<Node id="124"/> víctimas mortales en doce países de Asia y África. El consiguiente tsunami barrió extensas zonas costeras en <Node id="234"/>Indonesia<Node id="243"/>, <Node id="245"/>Tailandia<Node id="254"/> y<Node id="256"/> Sri Lanka<Node id="266"/>. Los países con más víctimas fueron Indonesia (<Node id="314"/>121.219<Node id="321"/> muertos) Sri Lanka (al menos <Node id="351"/>39.000<Node id="357"/>) India (unas <Node id="371"/>11.000<Node id="377"/> víctimas fatales), Tailandia: al menos <Node id="417"/>5.313<Node id="422"/> fallecidos (de ellos 2.171 extranjeros).<Node id="463"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="197" Type="Mention" StartNode="0" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="198" Type="Mention" StartNode="19" EndNode="33">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="199" Type="Mention" StartNode="37" EndNode="44">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="200" Type="Mention" StartNode="68" EndNode="71">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="201" Type="Mention" StartNode="98" EndNode="102">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Epicentre</Value>
+</Feature>
+</Annotation>
+<Annotation Id="202" Type="Mention" StartNode="117" EndNode="124">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="203" Type="Mention" StartNode="234" EndNode="243">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="204" Type="Mention" StartNode="245" EndNode="254">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="205" Type="Mention" StartNode="256" EndNode="266">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">OtherPlacesAffected</Value>
+</Feature>
+</Annotation>
+<Annotation Id="206" Type="Mention" StartNode="314" EndNode="321">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="207" Type="Mention" StartNode="351" EndNode="357">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="208" Type="Mention" StartNode="371" EndNode="377">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="209" Type="Mention" StartNode="417" EndNode="422">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="463">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="0" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">26/12/2004</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Region" StartNode="19" EndNode="33">
+</Annotation>
+<Annotation Id="4" Type="Country" StartNode="37" EndNode="44">
+</Annotation>
+<Annotation Id="5" Type="Magnitude" StartNode="68" EndNode="71">
+</Annotation>
+<Annotation Id="6" Type="Epicentre" StartNode="98" EndNode="102">
+</Annotation>
+<Annotation Id="7" Type="Fatalities" StartNode="117" EndNode="124">
+</Annotation>
+<Annotation Id="8" Type="OtherPlacesAffected" StartNode="234" EndNode="243">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="OtherPlacesAffected" StartNode="245" EndNode="254">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="OtherPlacesAffected" StartNode="256" EndNode="266">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Fatalities" StartNode="314" EndNode="321">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Fatalities" StartNode="351" EndNode="357">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Fatalities" StartNode="371" EndNode="377">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">3</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Fatalities" StartNode="417" EndNode="422">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">4</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

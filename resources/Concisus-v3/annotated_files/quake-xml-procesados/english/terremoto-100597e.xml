@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-100597e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>On <Node id="3"/>May 10, 1997<Node id="15"/>, <Node id="17"/>Northern Iran<Node id="30"/>'s <Node id="33"/>Khorasan<Node id="41"/> Province was struck by a major earthquake known as the Qayen, Ardekul or Qaen earthquake. The largest in the area since 1990, it measured <Node id="180"/>7.3<Node id="183"/> on the moment magnitude scale and was centered approximately 270 kilometers (170 mi) south of Mashhad on the village of <Node id="304"/>Ardekul<Node id="311"/>. The third earthquake that year to cause severe damage, it devastated the Birjand?Qayen region, killing <Node id="416"/>1,567<Node id="421"/> and injuring over <Node id="440"/>2,300<Node id="445"/>.<Node id="446"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="182" Type="Mention" StartNode="3" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="183" Type="Mention" StartNode="17" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="184" Type="Mention" StartNode="33" EndNode="41">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Province</Value>
+</Feature>
+</Annotation>
+<Annotation Id="185" Type="Mention" StartNode="180" EndNode="183">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Magnitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="186" Type="Mention" StartNode="416" EndNode="421">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="Mention" StartNode="440" EndNode="445">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="188" Type="Mention" StartNode="304" EndNode="311">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">City</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="446">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="3" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">10/05/1997</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Region" StartNode="17" EndNode="30">
+</Annotation>
+<Annotation Id="4" Type="Province" StartNode="33" EndNode="41">
+</Annotation>
+<Annotation Id="5" Type="Magnitude" StartNode="180" EndNode="183">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="416" EndNode="421">
+</Annotation>
+<Annotation Id="8" Type="Injured" StartNode="440" EndNode="445">
+</Annotation>
+<Annotation Id="9" Type="City" StartNode="304" EndNode="311">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-210208.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2008<Node id="4"/>&#xd;
+<Node id="6"/>21 de febrero<Node id="19"/>: el <Node id="24"/>Vuelo 518<Node id="33"/> de <Node id="37"/>Santa Bárbara Airlines <Node id="60"/>(un avión tipo <Node id="75"/>ATR42-300<Node id="84"/>) de la aerolínea venezolana Santa Bárbara Airlines que se dirigía desde la ciudad de <Node id="170"/>Mérida en la Cordillera de los Andes<Node id="206"/> hacia la capital <Node id="224"/>Caracas<Node id="231"/>, a los pocos minutos de su despegue <Node id="268"/>impacta<Node id="275"/> de manera directa <Node id="294"/>contra una montaña<Node id="312"/> conocida como el<Node id="329"/> "Páramo de los Conejos"<Node id="353"/> a 4.750 m perdiendo la vida la <Node id="385"/>totalidad<Node id="394"/> de sus <Node id="402"/>3<Node id="403"/> tripulantes y <Node id="418"/>43 <Node id="421"/>pasajeros<Node id="430"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="192" Type="Mention" StartNode="385" EndNode="394">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="180" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="181" Type="Mention" StartNode="6" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="182" Type="Mention" StartNode="24" EndNode="33">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="183" Type="Mention" StartNode="37" EndNode="60">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="184" Type="Mention" StartNode="75" EndNode="84">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAircraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="185" Type="Mention" StartNode="170" EndNode="206">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="186" Type="Mention" StartNode="224" EndNode="231">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="Mention" StartNode="268" EndNode="275">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="188" Type="Mention" StartNode="294" EndNode="312">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="189" Type="Mention" StartNode="329" EndNode="353">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="190" Type="Mention" StartNode="402" EndNode="403">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Tripulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="Mention" StartNode="418" EndNode="421">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Passenger</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="430">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="3" Type="DateOfAccident" StartNode="6" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">21/02/2008</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="FlightNumber" StartNode="24" EndNode="33">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Airline" StartNode="37" EndNode="60">
+</Annotation>
+<Annotation Id="6" Type="TypeOfAircraft" StartNode="75" EndNode="84">
+</Annotation>
+<Annotation Id="7" Type="Origin" StartNode="170" EndNode="206">
+</Annotation>
+<Annotation Id="8" Type="Destination" StartNode="224" EndNode="231">
+</Annotation>
+<Annotation Id="9" Type="TypeOfAccident" StartNode="268" EndNode="275">
+</Annotation>
+<Annotation Id="10" Type="TypeOfAccident" StartNode="294" EndNode="312">
+</Annotation>
+<Annotation Id="11" Type="Place" StartNode="329" EndNode="353">
+</Annotation>
+<Annotation Id="12" Type="Tripulation" StartNode="402" EndNode="403">
+</Annotation>
+<Annotation Id="13" Type="Passenger" StartNode="418" EndNode="421">
+</Annotation>
+<Annotation Id="14" Type="NumberOfVictims" StartNode="385" EndNode="394">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String">46</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

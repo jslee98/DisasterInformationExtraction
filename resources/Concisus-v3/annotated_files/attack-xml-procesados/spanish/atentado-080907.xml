@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-080907.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El Bombazo de <Node id="14"/>Dellys<Node id="20"/> (2007) ocurrió el <Node id="39"/>8 de septiembre de 2007<Node id="62"/>, donde <Node id="70"/>37<Node id="72"/> personas murieron en el acto y otras <Node id="110"/>47<Node id="112"/> resultaron heridas, cuando un <Node id="143"/>coche bomba<Node id="154"/>, atacó a la <Node id="167"/>marina argelina<Node id="182"/> en la ciudad de <Node id="199"/>Dellys<Node id="205"/>, Argelia, a unos 100 Km al E de Argel. El acto fue protagonizado por 2 hombres, los cuáles murieron instantáneamente. <Node id="324"/>Al Qaida del Magreb Islámico<Node id="352"/> se adjudicó el ataque suicida.<Node id="383"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="162" Type="Mention" StartNode="39" EndNode="62">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="163" Type="Mention" StartNode="70" EndNode="72">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="164" Type="Mention" StartNode="110" EndNode="112">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="165" Type="Mention" StartNode="143" EndNode="154">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="166" Type="Mention" StartNode="199" EndNode="205">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="167" Type="Mention" StartNode="324" EndNode="352">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="168" Type="Mention" StartNode="167" EndNode="182">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="169" Type="Mention" StartNode="14" EndNode="20">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="383">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="39" EndNode="62">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">08/09/07</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Fatalities" StartNode="70" EndNode="72">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Injured" StartNode="110" EndNode="112">
+</Annotation>
+<Annotation Id="4" Type="TypeOfAttack" StartNode="143" EndNode="154">
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="199" EndNode="205">
+</Annotation>
+<Annotation Id="6" Type="Perpetrator" StartNode="324" EndNode="352">
+</Annotation>
+<Annotation Id="7" Type="NameOfVictim" StartNode="167" EndNode="182">
+</Annotation>
+<Annotation Id="8" Type="Place" StartNode="14" EndNode="20">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

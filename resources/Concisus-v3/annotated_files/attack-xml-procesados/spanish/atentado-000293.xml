@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-000293.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>febrero de 1993<Node id="18"/>, un grave atentado estremece al <Node id="51"/>World Trade Center<Node id="69"/> en <Node id="73"/>Nueva York<Node id="83"/>. Una <Node id="89"/>camioneta de alquiler estacionada en el subsuelo del complejo estalló<Node id="158"/> provocando la muerte de <Node id="183"/>seis<Node id="187"/> personas y heridas a otras <Node id="215"/>mil<Node id="218"/>. La investigacion del atentado adjudicá la instigacion del mismo a <Node id="286"/>grupos islamicos radicalizados<Node id="316"/> en conexion directa con sus simpatizantes locales. <Node id="368"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="144" Type="Mention" StartNode="183" EndNode="187">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="145" Type="Mention" StartNode="215" EndNode="218">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="146" Type="Mention" StartNode="286" EndNode="316">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="140" Type="Mention" StartNode="3" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="141" Type="Mention" StartNode="51" EndNode="69">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="142" Type="Mention" StartNode="73" EndNode="83">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="143" Type="Mention" StartNode="89" EndNode="158">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="368">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="3" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">02/93</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="NameOfVictim" StartNode="51" EndNode="69">
+</Annotation>
+<Annotation Id="9" Type="Place" StartNode="73" EndNode="83">
+</Annotation>
+<Annotation Id="11" Type="TypeOfAttack" StartNode="89" EndNode="158">
+</Annotation>
+<Annotation Id="12" Type="Fatalities" StartNode="183" EndNode="187">
+</Annotation>
+<Annotation Id="13" Type="Injured" StartNode="215" EndNode="218">
+</Annotation>
+<Annotation Id="14" Type="Perpetrator" StartNode="286" EndNode="316">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

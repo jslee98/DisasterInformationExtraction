@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-080110e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The <Node id="4"/>Togo national football team<Node id="31"/> bus attack was a <Node id="49"/>terrorist<Node id="58"/> attack on the team bus of the Togo national football team that occurred on <Node id="134"/>8 January 2010<Node id="148"/> as the team traveled through the Angolan province of <Node id="202"/>Cabinda<Node id="209"/> on the way to the 2010 Africa Cup of Nations tournament, which began on 10 January.Bus driver <Node id="304"/>Mário Adjoua,<Node id="317"/> the team's assistant manager <Node id="347"/>Abalo Amelete<Node id="360"/>, and media officer <Node id="380"/>Stanislas Ocloo<Node id="395"/> were killed, with <Node id="414"/>several<Node id="421"/> others injured.<Node id="437"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="166" Type="Mention" StartNode="134" EndNode="148">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="167" Type="Mention" StartNode="304" EndNode="317">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="168" Type="Mention" StartNode="347" EndNode="360">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="169" Type="Mention" StartNode="380" EndNode="395">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="170" Type="Mention" StartNode="414" EndNode="421">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="171" Type="Mention" StartNode="4" EndNode="31">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="172" Type="Mention" StartNode="49" EndNode="58">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="173" Type="Mention" StartNode="202" EndNode="209">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="437">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="134" EndNode="148">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">08/01/10</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="NameOfVictim" StartNode="304" EndNode="317">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="NameOfVictim" StartNode="347" EndNode="360">
+</Annotation>
+<Annotation Id="4" Type="NameOfVictim" StartNode="380" EndNode="395">
+</Annotation>
+<Annotation Id="5" Type="Injured" StartNode="414" EndNode="421">
+</Annotation>
+<Annotation Id="6" Type="NameOfVictim" StartNode="4" EndNode="31">
+</Annotation>
+<Annotation Id="7" Type="TypeOfAttack" StartNode="49" EndNode="58">
+</Annotation>
+<Annotation Id="8" Type="Place" StartNode="202" EndNode="209">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

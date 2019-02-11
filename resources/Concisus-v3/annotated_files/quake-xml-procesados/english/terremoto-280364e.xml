@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-280364e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>At <Node id="3"/>5:36<Node id="7"/> p.m. Alaska Standard Time (3:36 a.m.<Node id="44"/> March 28, 1964<Node id="59"/> UTC), a fault between the Pacific and North American plates ruptured near College Fjord in Prince William Sound. The epicenter of the earthquake was 61°03N 147°29W / 61.05°N 147.48°W/61.05;-147.48, 12.4 mi (20 km) <Node id="274"/>north of Prince William Sound<Node id="303"/>, 78 miles (125 km) <Node id="323"/>east of Anchorage<Node id="340"/> and 40 miles (64 km) <Node id="362"/>west of Valdez<Node id="376"/>. The focus occurred at a depth of approximately <Node id="425"/>15.5<Node id="429"/> mi (25 km). Ocean floor shifts created large tsunamis (up to 220 feet (67 m) in height)<Node id="517"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="257" Type="Mention" StartNode="3" EndNode="7">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="258" Type="Mention" StartNode="44" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="259" Type="Mention" StartNode="274" EndNode="303">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Epicentre</Value>
+</Feature>
+</Annotation>
+<Annotation Id="260" Type="Mention" StartNode="425" EndNode="429">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Depth</Value>
+</Feature>
+</Annotation>
+<Annotation Id="261" Type="Mention" StartNode="323" EndNode="340">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="262" Type="Mention" StartNode="362" EndNode="376">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="517">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="TimeOfEarthquake" StartNode="3" EndNode="7">
+</Annotation>
+<Annotation Id="3" Type="DateOfEarthquake" StartNode="44" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/03/1964</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Epicentre" StartNode="274" EndNode="303">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Depth" StartNode="425" EndNode="429">
+</Annotation>
+<Annotation Id="6" Type="Region" StartNode="323" EndNode="340">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Region" StartNode="362" EndNode="376">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

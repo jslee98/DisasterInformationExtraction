@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/terremotos/terremoto-280297e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>The 1997 Ardabil earthquake was a destructive earthquake that occurred on <Node id="74"/>28 February 1997<Node id="90"/>. The earthquake occurred at <Node id="119"/>12:57<Node id="124"/> UTC (4:27 p.m. Iran Standard Time) and lasted for <Node id="175"/>15<Node id="177"/> seconds. At least <Node id="196"/>1,100<Node id="201"/> people were killed,<Node id="221"/> 2,600 <Node id="228"/>injured, <Node id="237"/>36,000<Node id="243"/> homeless, 12,000 houses damaged or destroyed and 160,000 livestock killed in the <Node id="325"/>Ardabil<Node id="332"/> area of northwestern <Node id="354"/>Iran<Node id="358"/>. <Node id="360"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="160" Type="Mention" StartNode="221" EndNode="228">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="161" Type="Mention" StartNode="237" EndNode="243">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Homeless</Value>
+</Feature>
+</Annotation>
+<Annotation Id="162" Type="Mention" StartNode="325" EndNode="332">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="163" Type="Mention" StartNode="354" EndNode="358">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="156" Type="Mention" StartNode="74" EndNode="90">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="157" Type="Mention" StartNode="119" EndNode="124">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TimeOfEarthquake</Value>
+</Feature>
+</Annotation>
+<Annotation Id="158" Type="Mention" StartNode="175" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Duration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="159" Type="Mention" StartNode="196" EndNode="201">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="360">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfEarthquake" StartNode="74" EndNode="90">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/02/1997</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TimeOfEarthquake" StartNode="119" EndNode="124">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Duration" StartNode="175" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">15 seconds</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Fatalities" StartNode="196" EndNode="201">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Injured" StartNode="221" EndNode="228">
+</Annotation>
+<Annotation Id="7" Type="Homeless" StartNode="237" EndNode="243">
+</Annotation>
+<Annotation Id="8" Type="Region" StartNode="325" EndNode="332">
+</Annotation>
+<Annotation Id="9" Type="Country" StartNode="354" EndNode="358">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

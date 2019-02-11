@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-111210e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2010, December 11&#xd;<Node id="18"/>
+Sweden: Two explosions occurred in the capital city of <Node id="74"/>Stockholm<Node id="83"/>, one triggered by a <Node id="104"/>car bomb<Node id="112"/> and another <Node id="125"/>suicide bomb<Node id="137"/> which likely killed the <Node id="162"/>assailant<Node id="171"/>. The bombings have been linked to e-mail threats over Swedish involvment in the War in Afghanistan and the ongoing Muhammed cartoon controversy.<Node id="316"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="119" Type="Mention" StartNode="0" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="Mention" StartNode="74" EndNode="83">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="Mention" StartNode="104" EndNode="112">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Mention" StartNode="125" EndNode="137">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Mention" StartNode="162" EndNode="171">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="316">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="0" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">11/12/10</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Place" StartNode="74" EndNode="83">
+</Annotation>
+<Annotation Id="6" Type="TypeOfAttack" StartNode="104" EndNode="112">
+</Annotation>
+<Annotation Id="7" Type="TypeOfAttack" StartNode="125" EndNode="137">
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="162" EndNode="171">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

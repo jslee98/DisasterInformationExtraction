@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-271109.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El atentado al <Node id="15"/>Nevsky Express<Node id="29"/> se produjo el <Node id="44"/>27 de noviembre de 2009<Node id="67"/> cuando una <Node id="79"/>bomba<Node id="84"/> explotó bajo las vías del tren de alta velocidad que une las ciudades rusas de Moscú y San Petersburgo, causando su descarrilamiento cerca de la localidad de <Node id="243"/>Bologoye<Node id="251"/>, Tver (a unos 350 kilómetros al noroeste de Moscú), a las 21:34 hora local. Las autoridades rusas informaron inicialmente del fallecimiento de 39 personas y de <Node id="412"/>95<Node id="414"/> heridos, pero más tarde rectificaron el número de víctimas rebajando la cifra a <Node id="495"/>27<Node id="497"/> muertes el 2 de diciembre, 8 de las cuales seis que quedaron atrapados bajo los amasijos de hierros de los convoyes.<Node id="614"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="240" Type="Mention" StartNode="495" EndNode="497">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="235" Type="Mention" StartNode="15" EndNode="29">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="236" Type="Mention" StartNode="44" EndNode="67">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="237" Type="Mention" StartNode="79" EndNode="84">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="238" Type="Mention" StartNode="243" EndNode="251">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="239" Type="Mention" StartNode="412" EndNode="414">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="614">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="NameOfVictim" StartNode="15" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="DateOfAttack" StartNode="44" EndNode="67">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/11/09</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="TypeOfAttack" StartNode="79" EndNode="84">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Place" StartNode="243" EndNode="251">
+</Annotation>
+<Annotation Id="5" Type="Injured" StartNode="412" EndNode="414">
+</Annotation>
+<Annotation Id="6" Type="Fatalities" StartNode="495" EndNode="497">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/aviacion/avion-040809.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009<Node id="4"/>&#xd;
+<Node id="6"/>4 de agosto<Node id="17"/>:El <Node id="21"/>vuelo 622<Node id="30"/> de <Node id="34"/>Bangkok Airways<Node id="49"/>, se disponía a enlazar dos de los más importantes centros turísticos: <Node id="120"/>Krabi<Node id="125"/> y <Node id="128"/>Koh Samui<Node id="137"/>. Pero <Node id="144"/>al aterrizar, se sale de pista y se estrella contra la torre de control<Node id="215"/>, y <Node id="219"/>se incendia<Node id="230"/>. Fallece el <Node id="243"/>piloto<Node id="249"/>, y <Node id="253"/>41<Node id="255"/> personas resultan heridas. El aparato, un <Node id="298"/>ATR-72<Node id="304"/>, tenía poco más de ocho años, y ya había operado anteriormente para Bangkok Airways.<Node id="389"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="177" Type="Mention" StartNode="0" EndNode="4">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="178" Type="Mention" StartNode="6" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="179" Type="Mention" StartNode="21" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">FlightNumber</Value>
+</Feature>
+</Annotation>
+<Annotation Id="180" Type="Mention" StartNode="34" EndNode="49">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Airline</Value>
+</Feature>
+</Annotation>
+<Annotation Id="181" Type="Mention" StartNode="120" EndNode="125">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="182" Type="Mention" StartNode="128" EndNode="137">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="183" Type="Mention" StartNode="243" EndNode="249">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Tripulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="184" Type="Mention" StartNode="253" EndNode="255">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+<Annotation Id="185" Type="Mention" StartNode="298" EndNode="304">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAircraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="186" Type="Mention" StartNode="219" EndNode="230">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="Mention" StartNode="144" EndNode="215">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Cause</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="389">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="DateOfAccident" StartNode="6" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">04/08/2009</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="FlightNumber" StartNode="21" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Airline" StartNode="34" EndNode="49">
+</Annotation>
+<Annotation Id="5" Type="Origin" StartNode="120" EndNode="125">
+</Annotation>
+<Annotation Id="7" Type="Destination" StartNode="128" EndNode="137">
+</Annotation>
+<Annotation Id="9" Type="Tripulation" StartNode="243" EndNode="249">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Survivors" StartNode="253" EndNode="255">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String">41</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="TypeOfAircraft" StartNode="298" EndNode="304">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="TypeOfAccident" StartNode="219" EndNode="230">
+</Annotation>
+<Annotation Id="15" Type="Cause" StartNode="144" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

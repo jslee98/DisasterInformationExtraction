@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-120503e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2003, May 12&#xd;<Node id="13"/>
+<Node id="14"/>Saudi Arabia<Node id="26"/>: <Node id="28"/>Suicide bombings<Node id="44"/> of <Node id="48"/>United States expatriate housing compounds<Node id="90"/> in <Node id="94"/>Saudi Arabia<Node id="106"/> kill <Node id="112"/>26<Node id="114"/> and injure <Node id="126"/>160<Node id="129"/> in the <Node id="137"/>Riyadh Compound<Node id="152"/> Bombings. <Node id="163"/>Al-Qaeda<Node id="171"/> blamed.<Node id="179"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="82" Type="Mention" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="83" Type="Mention" StartNode="137" EndNode="152">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="84" Type="Mention" StartNode="163" EndNode="171">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="85" Type="Mention" StartNode="126" EndNode="129">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Injured</Value>
+</Feature>
+</Annotation>
+<Annotation Id="86" Type="Mention" StartNode="112" EndNode="114">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="87" Type="Mention" StartNode="94" EndNode="106">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="88" Type="Mention" StartNode="14" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="89" Type="Mention" StartNode="28" EndNode="44">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAttack</Value>
+</Feature>
+</Annotation>
+<Annotation Id="90" Type="Mention" StartNode="48" EndNode="90">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAttack" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">12/05/03</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="NameOfVictim" StartNode="137" EndNode="152">
+</Annotation>
+<Annotation Id="9" Type="Perpetrator" StartNode="163" EndNode="171">
+</Annotation>
+<Annotation Id="10" Type="Injured" StartNode="126" EndNode="129">
+</Annotation>
+<Annotation Id="11" Type="Fatalities" StartNode="112" EndNode="114">
+</Annotation>
+<Annotation Id="12" Type="Place" StartNode="94" EndNode="106">
+</Annotation>
+<Annotation Id="13" Type="Place" StartNode="14" EndNode="26">
+</Annotation>
+<Annotation Id="14" Type="TypeOfAttack" StartNode="28" EndNode="44">
+</Annotation>
+<Annotation Id="15" Type="NameOfVictim" StartNode="48" EndNode="90">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

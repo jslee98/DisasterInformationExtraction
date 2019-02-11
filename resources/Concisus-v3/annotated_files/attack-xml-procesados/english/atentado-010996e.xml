@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/My%20Documents/My%20Dropbox/horacio-sandra/summaries/atentados/atentado-010996e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>01 September 1996<Node id="17"/>
+The <Node id="22"/>Colombian Revolutionary Armed Forces<Node id="58"/> (FARC) leads an attack on a <Node id="87"/>military base<Node id="100"/> in Guaviare, Colombia, in protest of the Colombian military's drug eradication program, which was backed by the United States. The program, involving rigorous spraying of a defoliant in the coca-growing regions of southern Colombia, had been destroying valuable coca crops. During three weeks of guerrilla warfare, FARC killed at least <Node id="437"/>130<Node id="440"/> Colombians.<Node id="452"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="161" Type="Mention" StartNode="22" EndNode="58">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Perpetrator</Value>
+</Feature>
+</Annotation>
+<Annotation Id="162" Type="Mention" StartNode="87" EndNode="100">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NameOfVictim</Value>
+</Feature>
+</Annotation>
+<Annotation Id="163" Type="Mention" StartNode="437" EndNode="440">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Fatalities</Value>
+</Feature>
+</Annotation>
+<Annotation Id="164" Type="Mention" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAttack</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="452">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="Perpetrator" StartNode="22" EndNode="58">
+</Annotation>
+<Annotation Id="2" Type="NameOfVictim" StartNode="87" EndNode="100">
+</Annotation>
+<Annotation Id="3" Type="Fatalities" StartNode="437" EndNode="440">
+</Annotation>
+<Annotation Id="4" Type="DateOfAttack" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">01/09/96</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

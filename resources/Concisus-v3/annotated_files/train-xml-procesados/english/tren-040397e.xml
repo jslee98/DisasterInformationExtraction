@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/Administrator/Desktop/horacio-sandra/ferroviarios/tren-040397e.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>March 3, 1997 <Node id="14"/>? According to Associated Press of Pakistan report, a <Node id="68"/>Lahore<Node id="74"/>?<Node id="75"/>Karachi Zulfikar<Node id="91"/> <Node id="92"/>Express<Node id="99"/> <Node id="100"/>head-on collided with another passenger train<Node id="145"/>, where hit buffers at end of the spur line and crushing a locomotive engine with five passenger cars at <Node id="250"/>Mirshah, Khanewal, Panjab of Pakistan<Node id="287"/>, Pakistani official announced at least <Node id="327"/>126<Node id="330"/> people dead with <Node id="348"/>81<Node id="350"/> injured.<Node id="359"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="131" Type="Mention" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">DateOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="Mention" StartNode="68" EndNode="74">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Origin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="133" Type="Mention" StartNode="75" EndNode="91">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Destination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="Mention" StartNode="92" EndNode="99">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfTrain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="Mention" StartNode="100" EndNode="145">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">TypeOfAccident</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="Mention" StartNode="250" EndNode="287">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Place</Value>
+</Feature>
+</Annotation>
+<Annotation Id="137" Type="Mention" StartNode="327" EndNode="330">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">NumberOfVictims</Value>
+</Feature>
+</Annotation>
+<Annotation Id="138" Type="Mention" StartNode="348" EndNode="350">
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">Survivors</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="359">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="sms">
+<Annotation Id="1" Type="DateOfAccident" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">03/03/1997</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="Origin" StartNode="68" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="Destination" StartNode="75" EndNode="91">
+</Annotation>
+<Annotation Id="5" Type="TypeOfTrain" StartNode="92" EndNode="99">
+</Annotation>
+<Annotation Id="6" Type="TypeOfAccident" StartNode="100" EndNode="145">
+</Annotation>
+<Annotation Id="7" Type="Place" StartNode="250" EndNode="287">
+</Annotation>
+<Annotation Id="8" Type="NumberOfVictims" StartNode="327" EndNode="330">
+</Annotation>
+<Annotation Id="9" Type="Survivors" StartNode="348" EndNode="350">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>
