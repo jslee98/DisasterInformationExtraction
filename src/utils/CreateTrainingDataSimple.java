@@ -35,7 +35,7 @@ public class CreateTrainingDataSimple {
         String[] languages = {"english", "spanish"};
         String[] domains = {"attack", "aviation", "quake", "train"};
 
-        Path file = Paths.get("trainingdata.arff");
+        Path file = Paths.get("./resources/training/trainingdata.arff");
         List<String> lines = new ArrayList();
         lines.add("@relation 'news domain'");
         lines.add("@attribute Text string");

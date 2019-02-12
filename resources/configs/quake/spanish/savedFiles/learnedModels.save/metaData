@@ -1,0 +1,8 @@
+55 #numTrainingDocs
+32 #numClasses
+1816 #numNullLabelInstances
+9000811 #totalFeatures
+/Users/Jeff/Desktop/Abroad/Intelligent_Web_Applications/AIW_Lab1Files/resources/configs/quake/spanish/savedFiles/learnedModels.save #modelFile
+SVMLibSvmJava #learnerName
+null #learnerExecutable
+ -c 0.7 -t 0 -m 100 -tau 0.6   #learnerParams

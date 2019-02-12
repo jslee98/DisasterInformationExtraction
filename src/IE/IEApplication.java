@@ -10,7 +10,8 @@ import java.util.Scanner;
  *
  * @author Jeff Lee
  * Extract information from a text input
- * Works with English earthquake reports and Spanish aviation reports
+ * Works with both English and Spanish inputs
+ * Domains include Trains, Aviation, Attacks, and Earthquakes
  *
  */
 
@@ -23,28 +24,42 @@ public class IEApplication {
 
 		String pathToNLP="./gapps/MyNLPApp.gapp";
 		String pathToSpanishAviationIE="./gapps/IE_AIRPLANE_ES.gapp";
+		String pathToSpanishAttackIE="./gapps/IE_ATTACK_ES.gapp";
+		String pathToSpanishQuakeIE="./gapps/IE_QUAKE_ES.gapp";
+		String pathToSpanishTrainIE="./gapps/IE_TRAIN_ES.gapp";
 		String pathToEnglishAviationIE="./gapps/IE_AIRPLANE_EN.gapp";
 		String pathToEnglishQuakeIE="./gapps/IE_QUAKE_EN.gapp";
+        String pathToEnglishTrainIE="./gapps/IE_TRAIN_EN.gapp";
+		String pathToEnglishAttackIE="./gapps/IE_ATTACK_EN.gapp";
 
 		TextClassifier classifier = new TextClassifier();
-		String classificationFile = "./trainingdata.arff";
+		String classificationFile = "./resources/training/trainingdata.arff";
 		classifier.initClassifier();
 		classifier.loadTrainingInstances(classificationFile);
 		classifier.createTestInstances();
-
 
 			try {
 				Gate.init();
 				MyGATEApp languageProcessor = new MyGATEApp();
 				MyGATEApp spanishAviationIE = new MyGATEApp();
+				MyGATEApp spanishAttackIE = new MyGATEApp();
+				MyGATEApp spanishQuakeIE = new MyGATEApp();
+				MyGATEApp spanishTrainIE = new MyGATEApp();
 				MyGATEApp englishAviationIE = new MyGATEApp();
 				MyGATEApp englishQuakeIE = new MyGATEApp();
+                MyGATEApp englishTrainIE = new MyGATEApp();
+				MyGATEApp englishAttackIE = new MyGATEApp();
 
 				// Load the Gate applications
 				languageProcessor.loadMyGapp(pathToNLP);
 				spanishAviationIE.loadMyGapp(pathToSpanishAviationIE);
+				spanishAttackIE.loadMyGapp(pathToSpanishAttackIE);
+				spanishQuakeIE.loadMyGapp(pathToSpanishQuakeIE);
+				spanishTrainIE.loadMyGapp(pathToSpanishTrainIE);
 				englishAviationIE.loadMyGapp(pathToEnglishAviationIE);
 				englishQuakeIE.loadMyGapp(pathToEnglishQuakeIE);
+                englishTrainIE.loadMyGapp(pathToEnglishTrainIE);
+				englishAttackIE.loadMyGapp(pathToEnglishAttackIE);
 
 				while (runLoop) {
 					System.out.print("\nEnter the text you would like to extract information from: ");
@@ -67,6 +82,18 @@ public class IEApplication {
 						spanishAviationIE.setCorpus(sampleCorpus);
 						spanishAviationIE.executeMyGapp();
 						displayFoundInformation(sampleDoc, sampleDomain, sampleLanguage);
+					} else if (sampleLanguage.equals("spanish") && sampleDomain.equals("attack")) {
+						spanishAttackIE.setCorpus(sampleCorpus);
+						spanishAttackIE.executeMyGapp();
+						displayFoundInformation(sampleDoc, sampleDomain, sampleLanguage);
+					} else if (sampleLanguage.equals("spanish") && sampleDomain.equals("quake")) {
+						spanishQuakeIE.setCorpus(sampleCorpus);
+						spanishQuakeIE.executeMyGapp();
+						displayFoundInformation(sampleDoc, sampleDomain, sampleLanguage);
+					} else if (sampleLanguage.equals("spanish") && sampleDomain.equals("train")) {
+						spanishTrainIE.setCorpus(sampleCorpus);
+						spanishTrainIE.executeMyGapp();
+						displayFoundInformation(sampleDoc, sampleDomain, sampleLanguage);
 					} else if (sampleLanguage.equals("english") && sampleDomain.equals("aviation")) {
 						englishAviationIE.setCorpus(sampleCorpus);
 						englishAviationIE.executeMyGapp();
@@ -74,6 +101,14 @@ public class IEApplication {
 					} else if (sampleLanguage.equals("english") && sampleDomain.equals("quake")) {
 						englishQuakeIE.setCorpus(sampleCorpus);
 						englishQuakeIE.executeMyGapp();
+						displayFoundInformation(sampleDoc, sampleDomain, sampleLanguage);
+					} else if (sampleLanguage.equals("english") && sampleDomain.equals("train")) {
+                        englishTrainIE.setCorpus(sampleCorpus);
+                        englishTrainIE.executeMyGapp();
+                        displayFoundInformation(sampleDoc, sampleDomain, sampleLanguage);
+                    } else if (sampleLanguage.equals("english") && sampleDomain.equals("attack")) {
+						englishAttackIE.setCorpus(sampleCorpus);
+						englishAttackIE.executeMyGapp();
 						displayFoundInformation(sampleDoc, sampleDomain, sampleLanguage);
 					} else {
 						System.out.println("\nThe sample document is about " + sampleDomain + " written in " + sampleLanguage + ".");

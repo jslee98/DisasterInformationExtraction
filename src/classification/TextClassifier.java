@@ -96,7 +96,7 @@ public class TextClassifier {
    public static void main(String[] args) {
        try {
 
-           String trainFile="./trainingdata.arff";
+           String trainFile="./resources/training/trainingdata.arff";
 
            TextClassifier classifier=new TextClassifier();
            classifier.initClassifier();
