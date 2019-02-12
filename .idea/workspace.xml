@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c49ed801-99e8-46ca-bb60-274d4a3311b2" name="Default Changelist" comment="" />
+    <list default="true" id="c49ed801-99e8-46ca-bb60-274d4a3311b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AIW_Lab1Files/IE/CallMyLearner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AIW_Lab1Files/IE/IEApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AIW_Lab1Files/IE/IEApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AIW_Lab1Files/utils/CreateTrainingDataSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AIW_Lab1Files/utils/CreateTrainingDataSimple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sample_data/airplane_ES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/testing_classifier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IE/CallMyGATEApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IE/MyGATEApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IE/IEApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IE/IEApplication.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/CreateTrainingDataSimple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="120">
               <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -26,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IE/IEApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+            <state relative-caret-position="340">
+              <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -42,14 +51,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IE/CallMyGATEApp.java">
+        <entry file="file://$PROJECT_DIR$/src/IE/MyGATEApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-              <folding>
-                <element signature="e#1077#1078#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -63,6 +68,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -71,9 +81,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/IE/CallMyLearner.java" />
         <option value="$PROJECT_DIR$/src/classification/TextClassifier.java" />
-        <option value="$PROJECT_DIR$/src/IE/CallMyGATEApp.java" />
         <option value="$PROJECT_DIR$/src/utils/CreateTrainingDataSimple.java" />
         <option value="$PROJECT_DIR$/src/IE/IEApplication.java" />
+        <option value="$PROJECT_DIR$/src/IE/CallMyGATEApp.java" />
+        <option value="$PROJECT_DIR$/src/IE/MyGATEApp.java" />
       </list>
     </option>
   </component>
@@ -89,8 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,7 +118,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549913918438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549980069762" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -134,13 +145,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.IEApp">
-    <configuration name="CallLearner" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="IE.CallMyLearner" />
-      <module name="AIW_Lab1Files" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CreateTrainingData" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="utils.CreateTrainingDataSimple" />
       <module name="AIW_Lab1Files" />
@@ -149,7 +153,7 @@
       </method>
     </configuration>
     <configuration name="GateApp" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="IE.CallMyGATEApp" />
+      <option name="MAIN_CLASS_NAME" value="IE.MyGATEApp" />
       <module name="AIW_Lab1Files" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,7 +177,6 @@
       <item itemvalue="Application.CreateTrainingData" />
       <item itemvalue="Application.TextClassifier" />
       <item itemvalue="Application.GateApp" />
-      <item itemvalue="Application.CallLearner" />
       <item itemvalue="Application.IEApp" />
     </list>
   </component>
@@ -198,16 +201,18 @@
       <workItem from="1549623381568" duration="1339000" />
       <workItem from="1549888958452" duration="2172000" />
       <workItem from="1549904318572" duration="8038000" />
+      <workItem from="1549978635877" duration="1301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18190000" />
+    <option name="totallyTimeSpent" value="19491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28645065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29086894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,7 +221,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,13 +281,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IE/CallMyLearner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="167" column="16" selection-start-line="167" selection-start-column="16" selection-end-line="168" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IE/CallMyLearner.java" />
     <entry file="jar://$PROJECT_DIR$/../weka-3-8-3/weka.jar!/weka/core/Instances.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375">
@@ -290,13 +289,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IE/CallMyGATEApp.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/CreateTrainingDataSimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        <state relative-caret-position="120">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -308,20 +306,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/CreateTrainingDataSimple.java">
+    <entry file="file://$PROJECT_DIR$/src/IE/MyGATEApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IE/IEApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+        <state relative-caret-position="340">
+          <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
         </state>
       </provider>
     </entry>
